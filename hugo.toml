@@ -1,0 +1,42 @@
+baseURL = "https://www.jonghyunp.me.kr/"
+languageCode = "ko-KR"
+title = "jonghyunp 블로그"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[pagination]
+pagerSize = 10
+
+[params]
+  env = "production"
+  author = "jonghyunp"
+  description = "jonghyunp의 개발 블로그"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "안녕하세요 👋"
+  Content = "jonghyunp의 개발 블로그입니다."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/jonghyunpp"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
