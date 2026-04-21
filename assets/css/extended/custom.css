@@ -8,39 +8,39 @@ body, * {
 
 /* 본문 */
 .post-content {
-  font-size: 15px;
+  font-size: clamp(0.875rem, 2.5vw, 0.95rem);
   line-height: 1.8;
   letter-spacing: -0.01em;
 }
 
 /* 제목 */
-h1 { font-size: 1.7rem; font-weight: 700; letter-spacing: -0.03em; }
-h2 { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.02em; }
-h3 { font-size: 1.1rem; font-weight: 600; }
+h1 { font-size: clamp(1.3rem, 4vw, 1.7rem); font-weight: 700; letter-spacing: -0.03em; }
+h2 { font-size: clamp(1.05rem, 3vw, 1.3rem); font-weight: 700; letter-spacing: -0.02em; }
+h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 
 /* 포스트 목록 제목 */
 .post-title {
-  font-size: 1.1rem;
+  font-size: clamp(0.95rem, 3vw, 1.1rem);
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 
 /* 헤더 사이트 타이틀 */
 .logo a {
-  font-size: 1.15rem;
+  font-size: clamp(1rem, 3vw, 1.15rem);
   font-weight: 900;
   letter-spacing: -0.01em;
 }
 
 /* 메뉴 */
 #menu a {
-  font-size: 0.875rem;
+  font-size: clamp(0.8rem, 2vw, 0.875rem);
   font-weight: 500;
 }
 
 /* 태그·카테고리 */
 .post-tags a {
-  font-size: 0.8rem;
+  font-size: clamp(0.72rem, 1.8vw, 0.8rem);
   font-weight: 500;
 }
 
@@ -58,7 +58,12 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 }
 
 .home-info .entry-content {
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+}
+
+/* 포스트 메타 (날짜 등) */
+.post-meta {
+  font-size: clamp(0.72rem, 1.8vw, 0.8rem);
 }
 
 /* 주요 지수 카드 */
@@ -90,21 +95,21 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 .market-card.flat::before { background: #94a3b8; }
 
 .market-name {
-  font-size: 0.72rem;
+  font-size: clamp(0.65rem, 1.8vw, 0.72rem);
   font-weight: 600;
   color: var(--secondary);
   margin-bottom: 4px;
 }
 
 .market-value {
-  font-size: 1rem;
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
   font-weight: 700;
   color: var(--primary);
   margin-bottom: 4px;
 }
 
 .market-change {
-  font-size: 0.78rem;
+  font-size: clamp(0.7rem, 2vw, 0.78rem);
   font-weight: 600;
 }
 
@@ -136,7 +141,7 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 .section-nav-item {
   padding: 5px 14px;
   border-radius: 20px;
-  font-size: 13px;
+  font-size: clamp(0.72rem, 2vw, 0.8rem);
   font-weight: 600;
   text-decoration: none;
   border: 1.5px solid var(--border);
@@ -166,19 +171,19 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 }
 
 .section-cards .section-entry .entry-header h2 {
-  font-size: 0.95rem;
+  font-size: clamp(0.85rem, 2.5vw, 0.95rem);
   font-weight: 700;
   margin: 0 0 4px;
 }
 
 .section-cards .section-entry .entry-content p {
-  font-size: 0.75rem;
+  font-size: clamp(0.68rem, 2vw, 0.75rem);
   line-height: 1.4;
   margin: 0 0 4px;
   color: var(--secondary);
 }
 
 .section-cards .section-entry .entry-footer {
-  font-size: 0.72rem;
+  font-size: clamp(0.65rem, 1.8vw, 0.72rem);
   color: var(--secondary);
 }
