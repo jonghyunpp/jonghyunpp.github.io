@@ -1,8 +1,8 @@
 <div class="market-grid">
-  {{ range .Inner | split "\n" }}
-    {{ $line := trim . " " }}
+  {{ range (split "\n" .Inner) }}
+    {{ $line := trim . " \t\r" }}
     {{ if $line }}
-      {{ $parts := split $line "|" }}
+      {{ $parts := split "|" $line }}
       {{ if ge (len $parts) 4 }}
         {{ $name   := index $parts 0 | trim " " }}
         {{ $value  := index $parts 1 | trim " " }}
