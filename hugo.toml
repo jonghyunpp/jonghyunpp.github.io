@@ -33,30 +33,10 @@ pagerSize = 10
 
 [menu]
   [[menu.main]]
-    identifier = "news"
-    name = "📰 뉴스"
-    url = "/news/"
-    weight = 10
-  [[menu.main]]
-    identifier = "life"
-    name = "🏠 생활"
-    url = "/life/"
-    weight = 20
-  [[menu.main]]
-    identifier = "culture"
-    name = "🎭 문화"
-    url = "/culture/"
-    weight = 30
-  [[menu.main]]
-    identifier = "travel"
-    name = "✈️ 여행"
-    url = "/travel/"
-    weight = 40
-  [[menu.main]]
     identifier = "tags"
     name = "🏷️ 태그"
     url = "/tags/"
-    weight = 50
+    weight = 10
 
 [markup]
   [markup.goldmark]
