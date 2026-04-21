@@ -1,6 +1,6 @@
 baseURL = "https://www.jonghyunp.me.kr/"
 languageCode = "ko-KR"
-title = "jonghyunp's BLOG⭐️"
+title = "jonghyunp's BLOG ⭐️"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
@@ -26,8 +26,8 @@ pagerSize = 10
   ShowToc = true
 
 [params.homeInfoParams]
-  Title = "jonghyunp's BLOG😄"
-  Content = "일상의 모든 주제를 기록합니다."
+  Title = "읽다 보면 쓸모 있는 이야기들 ✨"
+  Content = "뉴스·경제·여행·생활, 오늘도 한 조각 🍀"
 
 [menu]
   [[menu.main]]
