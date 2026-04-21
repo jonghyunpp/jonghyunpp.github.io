@@ -1,0 +1,19 @@
+<div class="market-grid">
+  {{ range .Inner | split "\n" }}
+    {{ $line := trim . " " }}
+    {{ if $line }}
+      {{ $parts := split $line "|" }}
+      {{ if ge (len $parts) 4 }}
+        {{ $name   := index $parts 0 | trim " " }}
+        {{ $value  := index $parts 1 | trim " " }}
+        {{ $change := index $parts 2 | trim " " }}
+        {{ $dir    := index $parts 3 | trim " " }}
+        <div class="market-card {{ $dir }}">
+          <div class="market-name">{{ $name }}</div>
+          <div class="market-value">{{ $value }}</div>
+          <div class="market-change">{{ $change }}</div>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
