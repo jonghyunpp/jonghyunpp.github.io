@@ -123,6 +123,8 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 
 .page-header-row h1 {
   margin: 0;
+  font-size: clamp(1.1rem, 5vw, 1.7rem);
+  white-space: nowrap;
 }
 
 .section-nav {
