@@ -112,6 +112,42 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 .market-card.down .market-change { color: #ef4444; }
 .market-card.flat .market-change { color: #94a3b8; }
 
+/* 섹션 페이지 헤더 */
+.page-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page-header-row h1 {
+  margin: 0;
+}
+
+.section-nav {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.section-nav-item {
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1.5px solid var(--border);
+  color: var(--secondary);
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.section-nav-item:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
 /* 섹션 카드 가로 1열 */
 .section-cards {
   display: flex;

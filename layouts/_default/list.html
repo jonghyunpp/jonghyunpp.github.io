@@ -7,21 +7,35 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>
-    {{ .Title }}
-    {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
-    {{- with .OutputFormats.Get "rss" }}
-    <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" height="23">
-        <path d="M4 11a9 9 0 0 1 9 9" />
-        <path d="M4 4a16 16 0 0 1 16 16" />
-        <circle cx="5" cy="19" r="1" />
-      </svg>
-    </a>
+  <div class="page-header-row">
+    <h1>
+      {{ .Title }}
+      {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
+      {{- with .OutputFormats.Get "rss" }}
+      <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" height="23">
+          <path d="M4 11a9 9 0 0 1 9 9" />
+          <path d="M4 4a16 16 0 0 1 16 16" />
+          <circle cx="5" cy="19" r="1" />
+        </svg>
+      </a>
+      {{- end }}
+      {{- end }}
+    </h1>
+    {{- if eq .Kind "section" }}
+    {{- $sections := slice "news" "life" "culture" "travel" }}
+    <nav class="section-nav">
+      {{- range $sections }}
+      {{- with site.GetPage . }}
+      {{- if ne . $.Page }}
+      <a href="{{ .Permalink }}" class="section-nav-item">{{ .Title }}</a>
+      {{- end }}
+      {{- end }}
+      {{- end }}
+    </nav>
     {{- end }}
-    {{- end }}
-  </h1>
+  </div>
   {{- if .Description }}
   <div class="post-description">
     {{ .Description | markdownify }}
@@ -36,46 +50,6 @@
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
-{{- end }}
-
-{{- if eq .Kind "section" }}
-{{- $sections := slice "news" "life" "culture" "travel" }}
-<nav class="section-nav">
-  {{- range $sections }}
-  {{- with site.GetPage . }}
-  <a href="{{ .Permalink }}" class="section-nav-item{{ if eq . $.Page }} active{{ end }}">
-    {{ .Title }}
-  </a>
-  {{- end }}
-  {{- end }}
-</nav>
-<style>
-.section-nav {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 24px;
-}
-.section-nav-item {
-  padding: 7px 16px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 700;
-  text-decoration: none;
-  border: 2px solid var(--border);
-  color: var(--secondary);
-  transition: all 0.15s;
-}
-.section-nav-item:hover {
-  border-color: var(--primary);
-  color: var(--primary);
-}
-.section-nav-item.active {
-  background: var(--primary);
-  border-color: var(--primary);
-  color: var(--theme);
-}
-</style>
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
