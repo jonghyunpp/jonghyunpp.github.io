@@ -46,7 +46,9 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 
 /* 메인 소개글 */
 .home-info {
-  margin-bottom: 12px;
+  min-height: unset !important;
+  margin: 0 0 16px !important;
+  padding-bottom: 0;
 }
 
 .home-info .entry-header h1 {
