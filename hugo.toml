@@ -4,8 +4,7 @@ title = "jonghyunp's BLOG ⭐️"
 theme = "PaperMod"
 enableRobotsTXT = true
 
-[markup.goldmark.renderer]
-  unsafe = true
+
 buildDrafts = false
 buildFuture = false
 
