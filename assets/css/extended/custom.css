@@ -45,6 +45,10 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 }
 
 /* 메인 소개글 */
+.home-info {
+  margin-bottom: 12px;
+}
+
 .home-info .entry-header h1 {
   font-size: 2rem;
   font-weight: 900;
@@ -52,4 +56,37 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 
 .home-info .entry-content {
   font-size: 0.9rem;
+}
+
+/* 섹션 카드 가로 1열 */
+.section-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.section-cards .section-entry {
+  flex: 1 1 0;
+  min-width: 120px;
+  padding: 12px 14px;
+  margin: 0;
+}
+
+.section-cards .section-entry .entry-header h2 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.section-cards .section-entry .entry-content p {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  margin: 0 0 4px;
+  color: var(--secondary);
+}
+
+.section-cards .section-entry .entry-footer {
+  font-size: 0.72rem;
+  color: var(--secondary);
 }
