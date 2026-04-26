@@ -25,7 +25,7 @@ ShowReadingTime: false
 
 2026년 2월 4일 개봉. 장항준 감독, 유해진·박지훈·유지태 주연의 사극이다.
 
-**어떤 영화인가**
+<p style="font-size: 11px; font-weight: 800; letter-spacing: 0.1em; color: var(--secondary); border-left: 2px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">어떤 영화인가</p>
 
 1453년 계유정난. 수양대군이 조카 단종에게서 왕위를 빼앗는다. 열두 살 소년 단종은 왕에서 죄인이 되어 강원도 영월 땅으로 유배를 떠난다. 그 낯선 산골 마을에서 단종은 촌장 엄흥도(유해진)와 마을 사람들을 만난다.
 
@@ -38,17 +38,17 @@ ShowReadingTime: false
   <figcaption style="font-size: 12px; color: #888; margin-top: 8px;">공식 예고편 ⓒ 왕과 사는 남자</figcaption>
 </figure>
 
-**흥행 지표**
+<p style="font-size: 11px; font-weight: 800; letter-spacing: 0.1em; color: var(--secondary); border-left: 2px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">흥행 지표</p>
 
 - 역대 한국 영화 박스오피스 2위 — 누적 관객 1,661만 명
 - 2020년대 개봉 한국 영화 흥행 1위
 - 역대 한국 개봉 영화 매출액 1위
 
-**왜 이렇게 먹혔나**
+<p style="font-size: 11px; font-weight: 800; letter-spacing: 0.1em; color: var(--secondary); border-left: 2px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">왜 이렇게 먹혔나</p>
 
 전 연령대가 볼 수 있는 영화였다. 서울의 봄, 파묘가 특정 관객층에 집중됐다면 이 영화는 가족 단위 관람이 가능했다. 왕을 영웅으로 그리지 않은 것도 주효했다. 관람 후 단순한 감상에 그치지 않고 역사를 찾아보게 만들었고, 아이돌 출신 박지훈의 의외의 연기력이 젊은 층 바이럴을 이끌었다.
 
-**영화가 깨운 지역 — 영월·청령포**
+<p style="font-size: 11px; font-weight: 800; letter-spacing: 0.1em; color: var(--secondary); border-left: 2px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">영화가 깨운 지역 — 영월·청령포</p>
 
 영화의 배경 강원도 영월, 단종의 유배지 청령포로 사람들이 몰려들었다. 설 연휴 3일간 방문객 7,200명. 전년 같은 기간(2,000명)의 3.6배다. 영화 개봉 후 조선왕조실록 관련 도서 판매량은 2.9배 늘었다.
 
@@ -73,15 +73,15 @@ ShowReadingTime: false
 
 4월 8일 개봉. 이상민 감독, 김혜윤·이종원·김준한 주연의 공포영화다.
 
-**어떤 영화인가**
+<p style="font-size: 11px; font-weight: 800; letter-spacing: 0.1em; color: var(--secondary); border-left: 2px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">어떤 영화인가</p>
 
 충남 예산에 실제 존재하는 저수지 살목지. 낚시 명소이자 오래전부터 심령 스팟으로 불리던 이곳에 로드뷰 촬영팀이 들어선다. 카메라에 찍힌 정체불명의 형체, 계속 저수지로 안내하는 내비게이션, 물속에 숨겨진 존재. 평범한 직장인들이 낯선 공간에서 맞닥뜨리는 공포를 360도 파노라마 카메라와 고스트 박스 같은 특수 장비로 담아냈다. 무서운 걸 못 본다면 낮에 보길 권한다.
 
-**흥행 수치**
+<p style="font-size: 11px; font-weight: 800; letter-spacing: 0.1em; color: var(--secondary); border-left: 2px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">흥행 수치</p>
 
 제작비 30억 원. 개봉 7일 만에 손익분기점(80만 명) 돌파, 현재 누적 160만 명. CGV 기준 10대 관객 비중 10.7%로 같은 장르 평균을 크게 웃돈다. 공포를 혼자 보는 게 아니라 친구들과 함께하는 체험으로 소비하는 세대의 반응이다.
 
-**영화가 깨운 지역 — 예산 살목지**
+<p style="font-size: 11px; font-weight: 800; letter-spacing: 0.1em; color: var(--secondary); border-left: 2px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">영화가 깨운 지역 — 예산 살목지</p>
 
 <a href="https://map.kakao.com/link/search/충청남도 예산군 광시면 대리 살목지" target="_blank" rel="noopener"
    style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #555; text-decoration: none; border-bottom: 1px solid #ccc; padding-bottom: 2px; margin: 4px 0 16px;">
