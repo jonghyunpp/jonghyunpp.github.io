@@ -95,6 +95,10 @@ ShowReadingTime: false
 
 가장 주목할 건 **10대 관객층**이다. CGV 데이터 기준 <살목지>의 10대 관객 비중은 10.7%로, 지난해 대표 공포 흥행작 '노이즈'(6.9%)를 크게 웃돈다. 공포를 단순한 관람이 아닌 친구들과 함께하는 **'체험'으로 소비하는** 세대의 성향이 그대로 반영됐다. "놀라서 팝콘을 다 쏟았다", "심박수가 급격히 올라 스마트워치 경고 알림이 울렸다" 같은 후기들이 SNS에 퍼지면서 입소문이 불을 지폈다.
 
+<a href="https://map.kakao.com/link/search/충청남도 예산군 광시면 대리 살목지" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:8px; background:#fee500; color:#3c1e1e; padding:10px 16px; border-radius:10px; font-size:13px; font-weight:700; text-decoration:none; margin:12px 0 20px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+  📍 실제 살목지 저수지 위치 — 충청남도 예산군 광시면 대리 111 &nbsp;→ 카카오맵에서 보기
+</a>
+
 그리고 <왕과 사는 남자>의 영월처럼, **실제 살목지 저수지에 사람들이 몰려들기 시작했다**. 이른바 '성지순례'. 오죽하면 '귀신보다 사람이 더 많다'는 말이 나올 정도로 방문객이 폭증했고, 예산군은 야간 안전사고 예방을 위해 오후 6시부터 다음날 오전 6시까지 야간 방문을 통제하는 조치까지 내렸다. 지역에서는 이 저수지를 '살리단길'이라는 우스갯소리 별칭으로 부르며 관광 홍보에 나서고 있다.
 
 ---
