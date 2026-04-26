@@ -19,7 +19,7 @@ ShowReadingTime: false
   <img src="https://upload.wikimedia.org/wikipedia/ko/thumb/c/c4/%EC%99%95%EA%B3%BC_%EC%82%AC%EB%8A%94_%EB%82%A8%EC%9E%90.jpg/500px-%EC%99%95%EA%B3%BC_%EC%82%AC%EB%8A%94_%EB%82%A8%EC%9E%90.jpg"
        onerror="this.src='https://img.youtube.com/vi/B82_osxFOvg/hqdefault.jpg'"
        alt="왕과 사는 남자 공식 포스터"
-       style="max-width: 280px; width: 100%; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
+       style="max-width: 280px; width: 100%; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin: 0 auto;">
   <figcaption style="font-size: 12px; color: #888; margin-top: 8px;">© 2026 왕과 사는 남자</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ ShowReadingTime: false
 <figure style="margin: 24px auto; text-align: center;">
   <img src="https://img.youtube.com/vi/B82_osxFOvg/maxresdefault.jpg"
        alt="왕과 사는 남자 예고편"
-       style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12);">
+       style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: block; margin: 0 auto;">
   <figcaption style="font-size: 12px; color: #888; margin-top: 8px;">공식 예고편 ⓒ 왕과 사는 남자</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ ShowReadingTime: false
 <figure style="margin: 24px auto; text-align: center;">
   <img src="https://img.youtube.com/vi/P_9TtIX3f3Q/maxresdefault.jpg"
        alt="살목지 공식 예고편"
-       style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12);">
+       style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: block; margin: 0 auto;">
   <figcaption style="font-size: 12px; color: #888; margin-top: 8px;">공식 1차 예고편 ⓒ 살목지</figcaption>
 </figure>
 
@@ -56,11 +56,8 @@ ShowReadingTime: false
 그리고 실제 저수지에 사람들이 몰리기 시작했다.
 
 <a href="https://map.kakao.com/link/search/충청남도 예산군 광시면 대리 살목지" target="_blank" rel="noopener"
-   style="display: block; background: #f8f8f8; border: 1px solid #e0e0e0; border-left: 4px solid #222; border-radius: 8px; padding: 14px 18px; margin: 20px 0; text-decoration: none; color: inherit;">
-  <div style="font-size: 11px; color: #888; margin-bottom: 4px; font-weight: 600; letter-spacing: 0.5px;">LOCATION</div>
-  <div style="font-size: 14px; font-weight: 700; color: #111;">살목지 저수지</div>
-  <div style="font-size: 13px; color: #555; margin-top: 3px;">충청남도 예산군 광시면 대리 111</div>
-  <div style="font-size: 12px; color: #888; margin-top: 6px;">카카오맵에서 보기 →</div>
+   style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #555; text-decoration: none; border-bottom: 1px solid #ccc; padding-bottom: 2px; margin: 8px 0 20px;">
+  위치 — 충청남도 예산군 광시면 대리 111 (카카오맵)
 </a>
 
 예산군은 야간 안전사고 우려로 오후 6시 이후 출입을 통제하기 시작했다. '귀신보다 사람이 더 많다'는 말이 나올 정도였으니.
