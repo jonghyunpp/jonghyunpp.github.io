@@ -38,6 +38,12 @@ pagerSize = 10
     url = "/tags/"
     weight = 10
 
+  [[menu.main]]
+    identifier = "privacy"
+    name = "개인정보처리방침"
+    url = "/privacy-policy/"
+    weight = 10
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
