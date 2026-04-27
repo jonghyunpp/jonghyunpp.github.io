@@ -32,10 +32,12 @@ ShowReadingTime: false
 역사책이 기록하지 않은 그 시간들, 유배지에서 단종과 민초들이 함께 살아간 이야기를 영화는 담담하게, 때로는 따뜻하게, 결국엔 먹먹하게 풀어낸다. 결말은 역사가 이미 말해준다. 하지만 영화는 그 비극적 결말보다 그 이전의 시간, 한 소년이 낯선 땅에서 사람들과 나눈 온기에 집중한다.
 
 <figure style="margin: 24px auto; text-align: center;">
-  <img src="https://img.youtube.com/vi/B82_osxFOvg/maxresdefault.jpg"
-       alt="왕과 사는 남자 공식 예고편"
-       style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: block; margin: 0 auto;">
-  <figcaption style="font-size: 12px; color: #888; margin-top: 8px;">공식 예고편 ⓒ 왕과 사는 남자</figcaption>
+  <a href="https://www.youtube.com/watch?v=B82_osxFOvg" target="_blank" rel="noopener" style="display: block;">
+    <img src="https://img.youtube.com/vi/B82_osxFOvg/maxresdefault.jpg"
+         alt="왕과 사는 남자 공식 예고편"
+         style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: block; margin: 0 auto;">
+  </a>
+  <figcaption style="font-size: 12px; color: #888; margin-top: 8px;">공식 예고편 ⓒ 왕과 사는 남자 — 클릭하면 유튜브로 이동</figcaption>
 </figure>
 
 <p style="font-size: 14px; font-weight: 800; letter-spacing: 0.05em; color: var(--primary); border-left: 3px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">흥행 지표</p>
@@ -65,10 +67,12 @@ ShowReadingTime: false
 ## 살목지
 
 <figure style="margin: 24px auto; text-align: center;">
-  <img src="https://img.youtube.com/vi/P_9TtIX3f3Q/maxresdefault.jpg"
-       alt="살목지 공식 예고편"
-       style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: block; margin: 0 auto;">
-  <figcaption style="font-size: 12px; color: #888; margin-top: 8px;">공식 1차 예고편 ⓒ 살목지</figcaption>
+  <a href="https://www.youtube.com/watch?v=P_9TtIX3f3Q" target="_blank" rel="noopener" style="display: block;">
+    <img src="https://img.youtube.com/vi/P_9TtIX3f3Q/maxresdefault.jpg"
+         alt="살목지 공식 예고편"
+         style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: block; margin: 0 auto;">
+  </a>
+  <figcaption style="font-size: 12px; color: #888; margin-top: 8px;">공식 1차 예고편 ⓒ 살목지 — 클릭하면 유튜브로 이동</figcaption>
 </figure>
 
 4월 8일 개봉. 이상민 감독, 김혜윤·이종원·김준한 주연의 공포영화다.
@@ -83,9 +87,9 @@ ShowReadingTime: false
 
 <p style="font-size: 14px; font-weight: 800; letter-spacing: 0.05em; color: var(--primary); border-left: 3px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">영화가 깨운 지역 — 예산 살목지</p>
 
-<a href="https://map.kakao.com/link/search/충청남도 예산군 광시면 대리 살목지" target="_blank" rel="noopener"
+<a href="https://map.naver.com/v5/search/충청남도%20예산군%20광시면%20대리%20살목지" target="_blank" rel="noopener"
    style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #555; text-decoration: none; border-bottom: 1px solid #ccc; padding-bottom: 2px; margin: 4px 0 16px;">
-  위치 — 충청남도 예산군 광시면 대리 111 (카카오맵)
+  📍 충청남도 예산군 광시면 대리 111 — 네이버 지도
 </a>
 
 실제 저수지에 '성지순례' 인파가 몰려들었다. '귀신보다 사람이 더 많다'는 말이 나올 정도로 방문객이 급증했고, 예산군은 오후 6시 이후 야간 출입을 통제하기 시작했다. 지역에서는 이 저수지를 '살리단길'이라 부르며 관광 홍보에 나서고 있다.
