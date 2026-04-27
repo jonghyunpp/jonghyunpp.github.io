@@ -6,6 +6,8 @@ body, * {
   font-family: "Pretendard Variable", Pretendard, -apple-system, sans-serif !important;
 }
 
+a { text-decoration: none; }
+
 /* 본문 */
 .post-content {
   font-size: clamp(0.875rem, 2.5vw, 0.95rem);
@@ -117,73 +119,158 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 .market-card.down .market-change { color: #ef4444; }
 .market-card.flat .market-change { color: #94a3b8; }
 
-/* 섹션 페이지 헤더 */
-.page-header-row {
+/* ── 메인: 카테고리 섹션 ── */
+.jh-cat-section {
+  padding: 2rem 0 1.5rem;
+  border-bottom: 0.5px solid var(--border-color, #e5e5e5);
+}
+.jh-cat-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #888;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.jh-cat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .jh-cat-grid { grid-template-columns: repeat(2, 1fr); }
+}
+.jh-cat-card {
+  display: block;
+  padding: 1.1rem 1.25rem;
+  border: 0.5px solid var(--border-color, #e5e5e5);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.15s;
+  color: inherit;
+}
+.jh-cat-card:hover { background: var(--code-bg, #f5f5f5); }
+.jh-cat-name { font-size: 13px; font-weight: 500; margin-bottom: 3px; }
+.jh-cat-count { font-size: 11px; color: #999; }
+.jh-cat-bar { height: 2px; margin-top: 10px; border-radius: 1px; }
+.bar-news    { background: #1D9E75; }
+.bar-life    { background: #378ADD; }
+.bar-culture { background: #7F77DD; }
+.bar-travel  { background: #BA7517; }
+
+/* ── 메인: 피드 섹션 ── */
+.jh-feed-section { padding: 1.5rem 0; }
+.jh-feed-header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
+  align-items: baseline;
+  margin-bottom: 1.25rem;
 }
-
-.page-header-row h1 {
-  margin: 0;
-  font-size: clamp(1.1rem, 5vw, 1.7rem);
-  white-space: nowrap;
+.jh-feed-title {
+  font-size: 11px;
+  font-weight: 500;
+  color: #999;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
 }
-
-.section-nav {
+.jh-feed-item {
   display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 0.5px solid var(--border-color, #e5e5e5);
+  align-items: flex-start;
+  cursor: pointer;
+  color: inherit;
 }
-
-.section-nav-item {
-  padding: 5px 14px;
-  border-radius: 20px;
-  font-size: clamp(0.72rem, 2vw, 0.8rem);
-  font-weight: 600;
-  text-decoration: none;
-  border: 1.5px solid var(--border);
-  color: var(--secondary);
-  transition: all 0.15s;
-  white-space: nowrap;
-}
-
-.section-nav-item:hover {
-  border-color: var(--primary);
-  color: var(--primary);
-}
-
-/* 섹션 카드 가로 1열 */
-.section-cards {
+.jh-feed-item:last-child { border-bottom: none; }
+.jh-feed-left {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 32px;
+  flex-direction: column;
+  align-items: center;
+  min-width: 36px;
+  padding-top: 2px;
 }
+.jh-feed-day   { font-size: 18px; font-weight: 500; line-height: 1; }
+.jh-feed-month { font-size: 10px; color: #999; letter-spacing: 0.05em; margin-top: 2px; }
+.jh-feed-divider-v {
+  width: 0.5px;
+  background: var(--border-color, #e5e5e5);
+  align-self: stretch;
+  margin: 0 4px;
+}
+.jh-feed-body { flex: 1; }
+.jh-feed-cat  { font-size: 10px; font-weight: 500; letter-spacing: 0.07em; margin-bottom: 4px; }
+.jh-feed-item-title { font-size: 14px; font-weight: 500; line-height: 1.5; margin-bottom: 4px; }
+.jh-feed-desc { font-size: 12px; color: #999; line-height: 1.5; }
 
-.section-cards .section-entry {
-  flex: 1 1 0;
-  min-width: 120px;
-  padding: 12px 14px;
-  margin: 0;
-}
+/* 카테고리 컬러 */
+.jh-fc-news    { color: #1D9E75; }
+.jh-fc-life    { color: #378ADD; }
+.jh-fc-culture { color: #7F77DD; }
+.jh-fc-travel  { color: #BA7517; }
 
-.section-cards .section-entry .entry-header h2 {
-  font-size: clamp(0.85rem, 2.5vw, 0.95rem);
-  font-weight: 700;
-  margin: 0 0 4px;
+/* ── 섹션 페이지: 헤더 ── */
+.jh-section-hero {
+  padding: 2rem 0 1.5rem;
+  border-bottom: 0.5px solid var(--border-color, #e5e5e5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
+.jh-section-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 0.6rem;
+}
+.badge-news    { background: #E1F5EE; color: #0F6E56; }
+.badge-life    { background: #E6F1FB; color: #185FA5; }
+.badge-culture { background: #EEEDFE; color: #534AB7; }
+.badge-travel  { background: #FAEEDA; color: #854F0B; }
 
-.section-cards .section-entry .entry-content p {
-  font-size: clamp(0.68rem, 2vw, 0.75rem);
-  line-height: 1.4;
-  margin: 0 0 4px;
-  color: var(--secondary);
+.jh-section-name {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  margin-bottom: 0.4rem;
 }
+.jh-section-desc { font-size: 13px; color: #999; line-height: 1.6; }
+.jh-section-count { font-size: 12px; color: #999; }
 
-.section-cards .section-entry .entry-footer {
-  font-size: clamp(0.65rem, 1.8vw, 0.72rem);
-  color: var(--secondary);
+/* ── 섹션 페이지: 글 목록 ── */
+.jh-post-list { padding: 0; }
+.jh-post-item {
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  border-bottom: 0.5px solid var(--border-color, #e5e5e5);
+  align-items: start;
+  cursor: pointer;
+  color: inherit;
+  transition: opacity 0.15s;
 }
+.jh-post-item:hover { opacity: 0.7; }
+.jh-post-item:last-child { border-bottom: none; }
+.jh-post-date-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2px;
+}
+.jh-post-day  { font-size: 20px; font-weight: 500; line-height: 1; }
+.jh-post-mon  { font-size: 10px; color: #999; letter-spacing: 0.05em; margin-top: 2px; }
+.jh-post-title { font-size: 15px; font-weight: 500; line-height: 1.5; margin-bottom: 5px; }
+.jh-post-summary { font-size: 12px; color: #999; line-height: 1.6; margin-bottom: 8px; }
+.jh-post-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.jh-tag {
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 3px;
+  border: 0.5px solid var(--border-color, #e5e5e5);
+  color: #999;
+}
+.jh-post-read { font-size: 11px; color: #999; white-space: nowrap; padding-top: 4px; }

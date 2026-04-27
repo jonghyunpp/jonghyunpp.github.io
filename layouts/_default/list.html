@@ -2,75 +2,75 @@
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
-{{- else }} {{/* if not profileMode */}}
+{{- else }}
+
+{{- if eq .Kind "section" }}
+
+<div class="jh-section-hero">
+  <div class="jh-section-hero-left">
+    <div class="jh-section-badge badge-{{ .Section }}">
+      {{- if eq .Section "news" }}NEWS
+      {{- else if eq .Section "life" }}LIFE
+      {{- else if eq .Section "culture" }}CULTURE
+      {{- else if eq .Section "travel" }}TRAVEL
+      {{- else }}{{ upper .Section }}{{ end }}
+    </div>
+    <div class="jh-section-name">{{ .Title }}</div>
+    <div class="jh-section-desc">
+      {{- if eq .Section "news" }}매주 국내외 주요 뉴스를 정리합니다
+      {{- else if eq .Section "life" }}일상과 생활 정보를 공유합니다
+      {{- else if eq .Section "culture" }}문화, 예술, 엔터테인먼트를 다룹니다
+      {{- else if eq .Section "travel" }}국내외 여행 이야기를 담습니다
+      {{- end }}
+    </div>
+  </div>
+  <div class="jh-section-count">글 {{ len .Pages }}편</div>
+</div>
+
+<div class="jh-post-list">
+  {{- range .Pages }}
+  <a href="{{ .Permalink }}" class="jh-post-item">
+    <div class="jh-post-date-block">
+      <div class="jh-post-day">{{ .Date.Format "02" }}</div>
+      <div class="jh-post-mon">{{ upper (.Date.Format "Jan") }}</div>
+    </div>
+    <div class="jh-post-body">
+      <div class="jh-post-title">{{ .Title }}</div>
+      <div class="jh-post-summary">{{ .Summary | truncate 100 }}</div>
+      {{- with .Params.tags }}
+      <div class="jh-post-tags">
+        {{- range . }}<span class="jh-tag">{{ . }}</span>{{ end }}
+      </div>
+      {{- end }}
+    </div>
+    <div class="jh-post-read">{{ .ReadingTime }}분</div>
+  </a>
+  {{- end }}
+</div>
+
+{{- template "_internal/pagination.html" . }}
+
+{{- else }}
 
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <div class="page-header-row">
-    <h1>
-      {{ .Title }}
-      {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
-      {{- with .OutputFormats.Get "rss" }}
-      <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round" height="23">
-          <path d="M4 11a9 9 0 0 1 9 9" />
-          <path d="M4 4a16 16 0 0 1 16 16" />
-          <circle cx="5" cy="19" r="1" />
-        </svg>
-      </a>
-      {{- end }}
-      {{- end }}
-    </h1>
-    {{- if eq .Kind "section" }}
-    {{- $sections := slice "news" "life" "culture" "travel" }}
-    <nav class="section-nav">
-      {{- range $sections }}
-      {{- with site.GetPage . }}
-      {{- if ne . $.Page }}
-      <a href="{{ .Permalink }}" class="section-nav-item">{{ .Title }}</a>
-      {{- end }}
-      {{- end }}
-      {{- end }}
-    </nav>
-    {{- end }}
-  </div>
+  <h1>{{ .Title }}</h1>
 </header>
 {{- end }}
 
-{{- if .Content }}
-<div class="md-content">
-  {{- if not (.Param "disableAnchoredHeadings") }}
-  {{- partial "anchored_headings.html" .Content -}}
-  {{- else }}{{ .Content }}{{ end }}
-</div>
-{{- end }}
-
 {{- $pages := union .RegularPages .Sections }}
-
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
 
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-{{- partial "home_info.html" . }}
-{{- end }}
-
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
-
 {{- $class := "post-entry" }}
-
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
-{{- end }}
+{{- if $term }}{{- $class = "post-entry tag-entry" }}{{- end }}
 
 <article class="{{ $class }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
@@ -81,8 +81,7 @@
       {{- if .Draft }}
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+          <path d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
         </svg>
       </span>
       {{- end }}
@@ -106,23 +105,15 @@
 <footer class="page-footer">
   <nav class="pagination">
     {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
-      «&nbsp;{{ i18n "prev_page" }}&nbsp;
-      {{- if (.Param "ShowPageNums") }}
-      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
-      {{- end }}
-    </a>
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">«&nbsp;{{ i18n "prev_page" }}</a>
     {{- end }}
     {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
-      {{- i18n "next_page" }}&nbsp;
-      {{- if (.Param "ShowPageNums") }}
-      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
-      {{- end }}&nbsp;»
-    </a>
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }}&nbsp;»</a>
     {{- end }}
   </nav>
 </footer>
+{{- end }}
+
 {{- end }}
 
 {{- end }}{{/* end profileMode */}}

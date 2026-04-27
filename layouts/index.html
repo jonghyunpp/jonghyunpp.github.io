@@ -4,33 +4,58 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
-{{- $sections := slice "news" "life" "culture" "travel" }}
-{{- $sectionPages := slice }}
-{{- range $sections }}
-  {{- with site.GetPage . }}
-    {{- $sectionPages = $sectionPages | append . }}
-  {{- end }}
-{{- end }}
+{{- if eq .Paginator.PageNumber 1 }}
 
-{{- if and (eq .Paginator.PageNumber 1) (gt (len $sectionPages) 0) }}
-<div class="section-cards">
-  {{- range $sectionPages }}
-  <article class="post-entry section-entry">
-    <header class="entry-header">
-      <h2>{{ .Title }}</h2>
-    </header>
-    {{- if .Description }}
-    <div class="entry-content">
-      <p>{{ .Description }}</p>
-    </div>
+{{- $sections := slice
+  (dict "key" "news"    "name" "뉴스")
+  (dict "key" "life"    "name" "생활")
+  (dict "key" "culture" "name" "문화")
+  (dict "key" "travel"  "name" "여행")
+}}
+
+<div class="jh-cat-section">
+  <div class="jh-cat-label">카테고리</div>
+  <div class="jh-cat-grid">
+    {{- range $sections }}
+    {{- $key := .key }}
+    {{- $name := .name }}
+    {{- with site.GetPage $key }}
+    <a href="{{ .Permalink }}" class="jh-cat-card">
+      <div class="jh-cat-name">{{ $name }}</div>
+      <div class="jh-cat-count">글 {{ len .RegularPages }}편</div>
+      <div class="jh-cat-bar bar-{{ $key }}"></div>
+    </a>
     {{- end }}
-    <footer class="entry-footer">
-      <span>{{ len .RegularPages }}개의 글</span>
-    </footer>
-    <a class="entry-link" aria-label="{{ .Title }}" href="{{ .Permalink }}"></a>
-  </article>
+    {{- end }}
+  </div>
+</div>
+
+<div class="jh-feed-section">
+  <div class="jh-feed-header">
+    <span class="jh-feed-title">최근 글</span>
+  </div>
+  {{- range first 8 site.RegularPages }}
+  <a href="{{ .Permalink }}" class="jh-feed-item">
+    <div class="jh-feed-left">
+      <div class="jh-feed-day">{{ .Date.Format "02" }}</div>
+      <div class="jh-feed-month">{{ upper (.Date.Format "Jan") }}</div>
+    </div>
+    <div class="jh-feed-divider-v"></div>
+    <div class="jh-feed-body">
+      <div class="jh-feed-cat jh-fc-{{ .Section }}">
+        {{- if eq .Section "news" }}뉴스
+        {{- else if eq .Section "life" }}생활
+        {{- else if eq .Section "culture" }}문화
+        {{- else if eq .Section "travel" }}여행
+        {{- else }}{{ .Section }}{{ end }}
+      </div>
+      <div class="jh-feed-item-title">{{ .Title }}</div>
+      <div class="jh-feed-desc">{{ .Summary | truncate 80 }}</div>
+    </div>
+  </a>
   {{- end }}
 </div>
+
 {{- end }}
 
 {{- end }}{{- /* end main */ -}}
