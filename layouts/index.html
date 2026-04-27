@@ -34,7 +34,7 @@
   <div class="jh-feed-header">
     <span class="jh-feed-title">최근 글</span>
   </div>
-  {{- range first 8 site.RegularPages }}
+  {{- range first 8 (where site.RegularPages "File.BaseFileName" "!=" "privacy-policy") }}
   <a href="{{ .Permalink }}" class="jh-feed-item">
     <div class="jh-feed-left">
       <div class="jh-feed-day">{{ .Date.Format "02" }}</div>
