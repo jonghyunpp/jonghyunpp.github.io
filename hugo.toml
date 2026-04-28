@@ -25,11 +25,11 @@ pagerSize = 10
   description = "일상의 모든 주제를 기록합니다."
   defaultTheme = "auto"
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowToc = true
+  ShowToc = false
 
 [params.footer]
   text = "[개인정보처리방침](https://www.jonghyunp.me.kr/privacy-policy/)"
