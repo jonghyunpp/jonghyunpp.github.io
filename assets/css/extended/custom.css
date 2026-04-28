@@ -292,3 +292,55 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   color: var(--secondary);
 }
 .jh-post-read { font-size: 11px; color: var(--secondary); white-space: nowrap; padding-top: 4px; }
+
+/* ── 포스트: 팁 박스 ── */
+.tip-box {
+  border: 1px solid rgba(186,117,23,0.25);
+  border-left: 4px solid rgb(186,117,23);
+  border-radius: 10px;
+  padding: 1.6rem 1.8rem;
+  margin: 2.5rem 0;
+  background: rgba(186,117,23,0.04);
+}
+
+.tip-box-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgb(186,117,23);
+  letter-spacing: -0.01em;
+  margin-bottom: 1.4rem;
+}
+
+.tip-box-item {
+  margin-bottom: 1.1rem;
+}
+
+.tip-box-item:last-child {
+  margin-bottom: 0;
+}
+
+.tip-box-item > strong {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+
+.tip-box ul {
+  margin: 0.3rem 0 0 1.1rem;
+  padding: 0;
+}
+
+.tip-box li {
+  font-size: 0.865rem;
+  line-height: 1.75;
+  color: var(--secondary);
+  margin-bottom: 0.2rem;
+}
+
+.tip-box a {
+  color: rgb(186,117,23);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
