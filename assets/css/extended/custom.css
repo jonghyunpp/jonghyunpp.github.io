@@ -166,9 +166,9 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   color: inherit;
 }
 .jh-cat-card:hover { background: var(--code-bg); }
-.jh-cat-name { font-size: 13px; font-weight: 500; margin-bottom: 3px; color: var(--primary); }
+.jh-cat-name { font-size: 15px; font-weight: 700; margin-bottom: 4px; color: var(--primary); letter-spacing: -0.02em; }
 .jh-cat-count { font-size: 11px; color: var(--secondary); }
-.jh-cat-bar { height: 2px; margin-top: 10px; border-radius: 1px; }
+.jh-cat-bar { height: 2px; margin-top: 12px; border-radius: 1px; }
 .bar-news    { background: rgb(29,158,117); }
 .bar-life    { background: rgb(55,138,221); }
 .bar-culture { background: rgb(127,119,221); }
@@ -206,8 +206,8 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   min-width: 36px;
   padding-top: 2px;
 }
-.jh-feed-day   { font-size: 18px; font-weight: 500; line-height: 1; color: var(--primary); }
-.jh-feed-month { font-size: 10px; color: var(--secondary); letter-spacing: 0.05em; margin-top: 2px; }
+.jh-feed-day   { font-size: 20px; font-weight: 600; line-height: 1; color: var(--primary); }
+.jh-feed-month { font-size: 10px; color: var(--secondary); letter-spacing: 0.05em; margin-top: 3px; }
 .jh-feed-divider-v {
   width: 0.5px;
   background: var(--border);
@@ -215,9 +215,9 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   margin: 0 4px;
 }
 .jh-feed-body { flex: 1; }
-.jh-feed-cat  { font-size: 10px; font-weight: 500; letter-spacing: 0.07em; margin-bottom: 4px; }
-.jh-feed-item-title { font-size: 14px; font-weight: 500; line-height: 1.5; margin-bottom: 4px; color: var(--primary); }
-.jh-feed-desc { font-size: 12px; color: var(--secondary); line-height: 1.5; }
+.jh-feed-cat  { font-size: 10px; font-weight: 500; letter-spacing: 0.07em; margin-bottom: 5px; }
+.jh-feed-item-title { font-size: 15px; font-weight: 700; line-height: 1.45; margin-bottom: 5px; color: var(--primary); letter-spacing: -0.02em; }
+.jh-feed-desc { font-size: 11.5px; color: var(--secondary); line-height: 1.55; }
 
 /* 카테고리 컬러 */
 .jh-fc-news    { color: rgb(29,158,117); }
@@ -250,12 +250,12 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 
 .jh-section-name {
   font-size: 22px;
-  font-weight: 500;
-  letter-spacing: -0.4px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
   margin-bottom: 0.4rem;
   color: var(--primary);
 }
-.jh-section-desc { font-size: 13px; color: var(--secondary); line-height: 1.6; }
+.jh-section-desc { font-size: 12px; color: var(--secondary); line-height: 1.6; }
 .jh-section-count { font-size: 12px; color: var(--secondary); }
 
 /* ── 섹션 페이지: 글 목록 ── */
@@ -279,10 +279,10 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   align-items: center;
   padding-top: 2px;
 }
-.jh-post-day  { font-size: 20px; font-weight: 500; line-height: 1; color: var(--primary); }
-.jh-post-mon  { font-size: 10px; color: var(--secondary); letter-spacing: 0.05em; margin-top: 2px; }
-.jh-post-title { font-size: 15px; font-weight: 500; line-height: 1.5; margin-bottom: 5px; color: var(--primary); }
-.jh-post-summary { font-size: 12px; color: var(--secondary); line-height: 1.6; margin-bottom: 8px; }
+.jh-post-day  { font-size: 20px; font-weight: 600; line-height: 1; color: var(--primary); }
+.jh-post-mon  { font-size: 10px; color: var(--secondary); letter-spacing: 0.05em; margin-top: 3px; }
+.jh-post-title { font-size: 15px; font-weight: 700; line-height: 1.45; margin-bottom: 5px; color: var(--primary); letter-spacing: -0.02em; }
+.jh-post-summary { font-size: 11.5px; color: var(--secondary); line-height: 1.6; margin-bottom: 8px; }
 .jh-post-tags { display: flex; gap: 6px; flex-wrap: wrap; }
 .jh-tag {
   font-size: 10px;
