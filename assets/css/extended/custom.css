@@ -122,12 +122,12 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 /* ── 메인: 카테고리 섹션 ── */
 .jh-cat-section {
   padding: 2rem 0 1.5rem;
-  border-bottom: 0.5px solid var(--border-color, #e5e5e5);
+  border-bottom: 0.5px solid var(--border);
 }
 .jh-cat-label {
   font-size: 11px;
   font-weight: 500;
-  color: #888;
+  color: var(--secondary);
   letter-spacing: 0.07em;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -143,20 +143,20 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 .jh-cat-card {
   display: block;
   padding: 1.1rem 1.25rem;
-  border: 0.5px solid var(--border-color, #e5e5e5);
+  border: 0.5px solid var(--border);
   border-radius: 12px;
   cursor: pointer;
   transition: background 0.15s;
   color: inherit;
 }
-.jh-cat-card:hover { background: var(--code-bg, #f5f5f5); }
-.jh-cat-name { font-size: 13px; font-weight: 500; margin-bottom: 3px; }
-.jh-cat-count { font-size: 11px; color: #999; }
+.jh-cat-card:hover { background: var(--code-bg); }
+.jh-cat-name { font-size: 13px; font-weight: 500; margin-bottom: 3px; color: var(--primary); }
+.jh-cat-count { font-size: 11px; color: var(--secondary); }
 .jh-cat-bar { height: 2px; margin-top: 10px; border-radius: 1px; }
-.bar-news    { background: #1D9E75; }
-.bar-life    { background: #378ADD; }
-.bar-culture { background: #7F77DD; }
-.bar-travel  { background: #BA7517; }
+.bar-news    { background: rgb(29,158,117); }
+.bar-life    { background: rgb(55,138,221); }
+.bar-culture { background: rgb(127,119,221); }
+.bar-travel  { background: rgb(186,117,23); }
 
 /* ── 메인: 피드 섹션 ── */
 .jh-feed-section { padding: 1.5rem 0; }
@@ -169,7 +169,7 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 .jh-feed-title {
   font-size: 11px;
   font-weight: 500;
-  color: #999;
+  color: var(--secondary);
   letter-spacing: 0.07em;
   text-transform: uppercase;
 }
@@ -177,7 +177,7 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   display: flex;
   gap: 1rem;
   padding: 1rem 0;
-  border-bottom: 0.5px solid var(--border-color, #e5e5e5);
+  border-bottom: 0.5px solid var(--border);
   align-items: flex-start;
   cursor: pointer;
   color: inherit;
@@ -190,29 +190,29 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   min-width: 36px;
   padding-top: 2px;
 }
-.jh-feed-day   { font-size: 18px; font-weight: 500; line-height: 1; }
-.jh-feed-month { font-size: 10px; color: #999; letter-spacing: 0.05em; margin-top: 2px; }
+.jh-feed-day   { font-size: 18px; font-weight: 500; line-height: 1; color: var(--primary); }
+.jh-feed-month { font-size: 10px; color: var(--secondary); letter-spacing: 0.05em; margin-top: 2px; }
 .jh-feed-divider-v {
   width: 0.5px;
-  background: var(--border-color, #e5e5e5);
+  background: var(--border);
   align-self: stretch;
   margin: 0 4px;
 }
 .jh-feed-body { flex: 1; }
 .jh-feed-cat  { font-size: 10px; font-weight: 500; letter-spacing: 0.07em; margin-bottom: 4px; }
-.jh-feed-item-title { font-size: 14px; font-weight: 500; line-height: 1.5; margin-bottom: 4px; }
-.jh-feed-desc { font-size: 12px; color: #999; line-height: 1.5; }
+.jh-feed-item-title { font-size: 14px; font-weight: 500; line-height: 1.5; margin-bottom: 4px; color: var(--primary); }
+.jh-feed-desc { font-size: 12px; color: var(--secondary); line-height: 1.5; }
 
 /* 카테고리 컬러 */
-.jh-fc-news    { color: #1D9E75; }
-.jh-fc-life    { color: #378ADD; }
-.jh-fc-culture { color: #7F77DD; }
-.jh-fc-travel  { color: #BA7517; }
+.jh-fc-news    { color: rgb(29,158,117); }
+.jh-fc-life    { color: rgb(55,138,221); }
+.jh-fc-culture { color: rgb(127,119,221); }
+.jh-fc-travel  { color: rgb(186,117,23); }
 
 /* ── 섹션 페이지: 헤더 ── */
 .jh-section-hero {
   padding: 2rem 0 1.5rem;
-  border-bottom: 0.5px solid var(--border-color, #e5e5e5);
+  border-bottom: 0.5px solid var(--border);
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -226,19 +226,21 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   border-radius: 4px;
   margin-bottom: 0.6rem;
 }
-.badge-news    { background: #E1F5EE; color: #0F6E56; }
-.badge-life    { background: #E6F1FB; color: #185FA5; }
-.badge-culture { background: #EEEDFE; color: #534AB7; }
-.badge-travel  { background: #FAEEDA; color: #854F0B; }
+/* 배지 — rgba 배경으로 다크모드 자동 대응 */
+.badge-news    { background: rgba(29,158,117,0.12); color: rgb(29,158,117); }
+.badge-life    { background: rgba(55,138,221,0.12); color: rgb(55,138,221); }
+.badge-culture { background: rgba(127,119,221,0.12); color: rgb(127,119,221); }
+.badge-travel  { background: rgba(186,117,23,0.12); color: rgb(186,117,23); }
 
 .jh-section-name {
   font-size: 22px;
   font-weight: 500;
   letter-spacing: -0.4px;
   margin-bottom: 0.4rem;
+  color: var(--primary);
 }
-.jh-section-desc { font-size: 13px; color: #999; line-height: 1.6; }
-.jh-section-count { font-size: 12px; color: #999; }
+.jh-section-desc { font-size: 13px; color: var(--secondary); line-height: 1.6; }
+.jh-section-count { font-size: 12px; color: var(--secondary); }
 
 /* ── 섹션 페이지: 글 목록 ── */
 .jh-post-list { padding: 0; }
@@ -247,7 +249,7 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   grid-template-columns: 56px 1fr auto;
   gap: 1rem;
   padding: 1.25rem 0;
-  border-bottom: 0.5px solid var(--border-color, #e5e5e5);
+  border-bottom: 0.5px solid var(--border);
   align-items: start;
   cursor: pointer;
   color: inherit;
@@ -261,16 +263,16 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
   align-items: center;
   padding-top: 2px;
 }
-.jh-post-day  { font-size: 20px; font-weight: 500; line-height: 1; }
-.jh-post-mon  { font-size: 10px; color: #999; letter-spacing: 0.05em; margin-top: 2px; }
-.jh-post-title { font-size: 15px; font-weight: 500; line-height: 1.5; margin-bottom: 5px; }
-.jh-post-summary { font-size: 12px; color: #999; line-height: 1.6; margin-bottom: 8px; }
+.jh-post-day  { font-size: 20px; font-weight: 500; line-height: 1; color: var(--primary); }
+.jh-post-mon  { font-size: 10px; color: var(--secondary); letter-spacing: 0.05em; margin-top: 2px; }
+.jh-post-title { font-size: 15px; font-weight: 500; line-height: 1.5; margin-bottom: 5px; color: var(--primary); }
+.jh-post-summary { font-size: 12px; color: var(--secondary); line-height: 1.6; margin-bottom: 8px; }
 .jh-post-tags { display: flex; gap: 6px; flex-wrap: wrap; }
 .jh-tag {
   font-size: 10px;
   padding: 2px 7px;
   border-radius: 3px;
-  border: 0.5px solid var(--border-color, #e5e5e5);
-  color: #999;
+  border: 0.5px solid var(--border);
+  color: var(--secondary);
 }
-.jh-post-read { font-size: 11px; color: #999; white-space: nowrap; padding-top: 4px; }
+.jh-post-read { font-size: 11px; color: var(--secondary); white-space: nowrap; padding-top: 4px; }
