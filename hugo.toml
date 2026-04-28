@@ -4,6 +4,10 @@ title = "jonghyunp's BLOG ⭐️"
 theme = "PaperMod"
 enableRobotsTXT = true
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
 
 buildDrafts = false
 buildFuture = false
@@ -21,7 +25,7 @@ pagerSize = 10
   description = "일상의 모든 주제를 기록합니다."
   defaultTheme = "auto"
   ShowReadingTime = true
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -40,6 +44,12 @@ pagerSize = 10
     name = "🏷️ 태그"
     url = "/tags/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "search"
+    name = "🔍 검색"
+    url = "/search/"
+    weight = 20
 
 [markup]
   [markup.goldmark]

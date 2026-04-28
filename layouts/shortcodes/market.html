@@ -1,19 +1,25 @@
 <div class="market-grid">
-  {{ range (split "\n" .Inner) }}
-    {{ $line := trim . " \t\r" }}
-    {{ if $line }}
-      {{ $parts := split "|" $line }}
-      {{ if ge (len $parts) 4 }}
-        {{ $name   := index $parts 0 | trim " " }}
-        {{ $value  := index $parts 1 | trim " " }}
-        {{ $change := index $parts 2 | trim " " }}
-        {{ $dir    := index $parts 3 | trim " " }}
-        <div class="market-card {{ $dir }}">
-          <div class="market-name">{{ $name }}</div>
-          <div class="market-value">{{ $value }}</div>
-          <div class="market-change">{{ $change }}</div>
-        </div>
-      {{ end }}
-    {{ end }}
-  {{ end }}
+  {{- if .Inner }}
+    {{- range (split "\n" .Inner) }}
+      {{- $line := trim . " \t\r" }}
+      {{- if $line }}
+        {{- $parts := split "|" $line }}
+        {{- if ge (len $parts) 4 }}
+          <div class="market-card {{ index $parts 3 | trim " " }}">
+            <div class="market-name">{{ index $parts 0 | trim " " }}</div>
+            <div class="market-value">{{ index $parts 1 | trim " " }}</div>
+            <div class="market-change">{{ index $parts 2 | trim " " }}</div>
+          </div>
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- else if site.Data.market }}
+    {{- range site.Data.market }}
+      <div class="market-card {{ .dir }}">
+        <div class="market-name">{{ .name }}</div>
+        <div class="market-value">{{ .value }}</div>
+        <div class="market-change">{{ .change }}</div>
+      </div>
+    {{- end }}
+  {{- end }}
 </div>
