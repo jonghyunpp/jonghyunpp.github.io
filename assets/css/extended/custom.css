@@ -3,7 +3,7 @@
 
 /* 전체 폰트 적용 */
 body {
-  font-family: "Pretendard Variable", Pretendard, -apple-system, sans-serif !important;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, sans-serif;
 }
 
 a { text-decoration: none; }
