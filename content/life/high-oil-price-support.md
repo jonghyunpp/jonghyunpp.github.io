@@ -174,7 +174,7 @@ ShowReadingTime: false
           <tbody>
             <tr>
               <td style="font-weight:600;">1차</td>
-              <td>기초생활수급자 · 차상위계층 · 한부모가족</td>
+              <td>기초생활수급자 · 차상위계층 · 한부모가족<br><span style="font-size:11px;color:var(--secondary);">※ 1차 신청 시 2차 신청 불가</span></td>
               <td>4월 27일(월) ~ 5월 8일(금)</td>
               <td class="center">오후 6시</td>
             </tr>
@@ -275,6 +275,7 @@ ShowReadingTime: false
     <div class="lf-links">
       <a class="lf-link-btn primary" href="https://www.gov.kr" target="_blank" rel="noopener">정부24 바로가기</a>
       <a class="lf-link-btn" href="https://www.mois.go.kr" target="_blank" rel="noopener">행정안전부 공식 안내</a>
+      <a class="lf-link-btn" href="https://pf.kakao.com/_xmVxnxb" target="_blank" rel="noopener">카카오톡 국민비서 구삐</a>
     </div>
   </div>
 

@@ -27,6 +27,9 @@ pagerSize = 10
   ShowCodeCopyButtons = true
   ShowToc = true
 
+[params.footer]
+  text = "[개인정보처리방침](https://www.jonghyunp.me.kr/privacy-policy/)"
+
 [params.homeInfoParams]
   Title = "읽다 보면 쓸모 있는 이야기들 ✨"
   Content = "뉴스·경제·여행·생활, 오늘도 한 조각 🍀"
