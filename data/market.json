@@ -6,21 +6,15 @@
     "dir": "flat"
   },
   {
-    "name": "KOSDAQ",
-    "value": "nan",
-    "change": "nan%",
-    "dir": "flat"
-  },
-  {
     "name": "NASDAQ",
-    "value": "25,011.74",
-    "change": "-0.41%",
+    "value": "25,067.80",
+    "change": "-0.19%",
     "dir": "down"
   },
   {
     "name": "S&P 500",
-    "value": "7,199.20",
-    "change": "-0.43%",
+    "value": "7,200.75",
+    "change": "-0.41%",
     "dir": "down"
   }
 ]
