@@ -410,8 +410,6 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 
 /* ── 본문: H2 구분 ── */
 .post-content h2 {
-  border-bottom: 1.5px solid rgba(128, 128, 128, 0.15);
-  padding-bottom: 6px;
   margin-top: 2.2em;
 }
 
