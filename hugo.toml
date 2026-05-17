@@ -36,7 +36,7 @@ pagerSize = 10
   text = "[개인정보처리방침](https://www.jonghyunp.me.kr/privacy-policy/)"
 
 [params.homeInfoParams]
-  Title = "알아두면 어딘가 써먹게 되는 것들만 씁니다."
+  Title = "매일 스쳐가는 것 중, 기억할 만한 것만."
   Content = "뉴스·경제·생활·여행 — jonghyunp의 기록."
 
 [menu]
