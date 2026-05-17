@@ -10,13 +10,18 @@ a { text-decoration: none; }
 
 /* 본문 */
 .post-content {
-  font-size: clamp(0.8rem, 2.5vw, 0.875rem);
-  line-height: 1.65;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  line-height: 1.7;
   letter-spacing: -0.01em;
 }
 
 .post-content p {
   margin-bottom: 1.1rem;
+}
+
+/* 모바일 좌우 여백 — 특수문자·이모지 잘림 방지 */
+@media (max-width: 768px) {
+  :root { --gap: 20px; }
 }
 
 .post-content img {
@@ -32,9 +37,9 @@ a { text-decoration: none; }
 }
 
 /* 제목 */
-h1 { font-size: clamp(1.3rem, 4vw, 1.7rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.4; }
-h2 { font-size: clamp(1.0rem, 3vw, 1.15rem); font-weight: 600; letter-spacing: -0.02em; line-height: 1.45; }
-h3 { font-size: clamp(0.9rem, 2.5vw, 1.0rem); font-weight: 600; line-height: 1.45; }
+h1 { font-size: clamp(1.4rem, 4vw, 1.8rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.4; }
+h2 { font-size: clamp(1.1rem, 3vw, 1.25rem); font-weight: 600; letter-spacing: -0.02em; line-height: 1.45; }
+h3 { font-size: clamp(1.0rem, 2.5vw, 1.1rem); font-weight: 600; line-height: 1.45; }
 
 .post-content strong { font-weight: 600; }
 
