@@ -1,5 +1,6 @@
 baseURL = "https://www.jonghyunp.me.kr/"
-languageCode = "ko-KR"
+languageCode = "ko"
+defaultContentLanguage = "ko"
 title = "jonghyunp's BLOG ⭐️"
 theme = "PaperMod"
 enableRobotsTXT = true
