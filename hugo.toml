@@ -35,8 +35,8 @@ pagerSize = 10
   text = "[개인정보처리방침](https://www.jonghyunp.me.kr/privacy-policy/)"
 
 [params.homeInfoParams]
-  Title = "읽다 보면 쓸모 있는 이야기들 ✨"
-  Content = "뉴스·경제·여행·생활, 오늘도 한 조각 🍀"
+  Title = "알아두면 어딘가 써먹게 되는 것들만 씁니다."
+  Content = "뉴스·경제·생활·여행 — jonghyunp의 기록."
 
 [menu]
   [[menu.main]]
