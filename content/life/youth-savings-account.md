@@ -7,6 +7,10 @@ tags: ["청년도약계좌", "청년지원", "저축", "재테크", "청년정�
 ShowToc: false
 ShowReadingTime: false
 summary: "매달 70만 원 넣으면 정부가 최대 6%를 얹어준다. 청년도약계좌 조건·금리·절세 혜택까지 한 번에 정리했다."
+cover:
+  image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=75"
+  alt: "청년도약계좌 저축"
+  relative: false
 ---
 
 청년도약계좌를 아직 모르거나, 알면서도 "나는 해당 안 되겠지"라고 생각하고 넘겼다면 이 글을 한 번 읽어봐야 한다. 5년 동안 정부가 최대 6%를 지원해주는 계좌인데, 조건이 생각보다 넓다.
