@@ -372,10 +372,18 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 
 /* ── 본문: 테이블 ── */
 .post-content table {
-  width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
   border-collapse: collapse;
   margin: 1.2em 0;
   font-size: 0.92em;
+  display: table !important;
+}
+
+/* PaperMod가 table을 감싸는 wrapper가 있을 경우 대응 */
+.post-content .table-wrapper {
+  overflow-x: visible !important;
+  width: 100% !important;
 }
 
 .post-content thead th {

@@ -8,7 +8,7 @@ ShowToc: false
 ShowReadingTime: false
 summary: "5월 해외여행, 어디로 갈지 모르겠다면. 커플·가족·아이 동반 상황별로 지금 딱 맞는 여행지와 숙소를 골랐다."
 cover:
-  image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=75"
+  image: "/images/travel/kyoto.jpg"
   alt: "교토 후시미이나리 신사"
   relative: false
 ---
@@ -21,7 +21,7 @@ cover:
 
 ### 일본 교토
 
-![교토 후시미이나리 신사](https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=75)
+![교토 후시미이나리 신사](/images/travel/kyoto.jpg)
 
 골든위크가 끝난 5월 중순 이후의 교토는 다르다. 붐비던 관광객이 빠지고, 선선한 날씨에 신록이 가득한 골목을 둘이서 걸을 수 있다. 기온(祇園) 골목, 철학의 길, 후시미이나리 — 익숙한 코스도 사람이 없으면 전혀 다른 분위기다.
 
@@ -39,7 +39,7 @@ cover:
 
 ### 포르투갈 리스본 + 포르투
 
-![리스본 노란 트램](https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=900&q=75)
+![리스본 트램 28번](/images/travel/lisbon.jpg)
 
 유럽 여행의 첫 번째로 리스본을 꼽는 이유가 있다. 물가가 서유럽 대비 낮고, 사람들이 느긋하고, 노란 트램과 붉은 지붕들이 만들어내는 풍경은 어디서도 보기 어렵다. 5월은 날씨도 딱 맞다. 20도 초반의 맑은 날이 이어진다.
 
@@ -59,7 +59,7 @@ cover:
 
 ### 일본 오사카
 
-![오사카 도톤보리](https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=900&q=75)
+![오사카 도톤보리](/images/travel/osaka.jpg)
 
 처음 아이를 데리고 해외여행 간다면 오사카가 정답에 가깝다. 비행시간 1시간 30분, 음식이 무난하고, 위생 상태가 좋고, 유니버설 스튜디오 재팬이 있다.
 
@@ -78,7 +78,7 @@ USJ를 간다면 우메다나 난바 쪽 호텔이 접근성이 좋다. 트윈·
 
 ### 베트남 다낭
 
-![다낭 미케 비치](https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=900&q=75)
+![다낭 미케 비치](/images/travel/danang.jpg)
 
 동남아에서 아이와 함께 가기 가장 편한 곳 중 하나다. 5월은 다낭의 건기 시작 시점으로, 맑고 더운 날씨가 이어진다. 미케 비치는 수심이 얕고 파도가 잔잔해서 아이들이 놀기 좋다.
 
@@ -99,7 +99,7 @@ USJ를 간다면 우메다나 난바 쪽 호텔이 접근성이 좋다. 트윈·
 
 ### 태국 치앙마이
 
-![치앙마이 도이수텝 사원](https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=900&q=75)
+![치앙마이 도이수텝 사원](/images/travel/chiangmai.jpg)
 
 방콕의 화려함이 아니라 태국의 조용한 면을 보고 싶다면 치앙마이다. 5월은 건기가 막 끝나가는 시점이라 간간이 소나기가 있지만, 오히려 녹음이 짙어지고 인파도 적다. 하루 종일 카페에 앉아 있어도 아무도 눈치 안 준다.
 

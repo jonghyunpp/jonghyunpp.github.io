@@ -8,8 +8,8 @@ ShowToc: false
 ShowReadingTime: false
 summary: "5월은 국내 여행의 피크다. 커플, 가족, 아이와 함께 — 상황별로 가장 잘 맞는 여행지와 숙소를 골랐다."
 cover:
-  image: "https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1200&q=75"
-  alt: "5월 국내 여행"
+  image: "/images/travel/gyeongju.jpg"
+  alt: "경주 불국사"
   relative: false
 ---
 
@@ -21,7 +21,7 @@ cover:
 
 ### 전남 여수
 
-![여수 돌산대교 야경](https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=900&q=75)
+![여수 돌산대교 야경](/images/travel/yeosu.jpg)
 
 5월의 여수는 이유 없이 낭만적이다. 이순신 광장에서 돌산대교로 이어지는 밤 풍경은 낮보다 오히려 더 빛난다. 낮에는 오동도 동백숲을 걷고, 저녁엔 해산물 한 상에 소주 한잔이면 그걸로 충분하다.
 
@@ -39,7 +39,7 @@ cover:
 
 ### 경남 통영
 
-![통영 미륵산 케이블카에서 내려다본 다도해](https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=900&q=75)
+![통영 항구](/images/travel/tongyeong.jpg)
 
 한국의 나폴리라고 불릴 만하다. 미륵산 케이블카에서 내려다보는 다도해 뷰는 한 번 보면 잊기 어렵다. 강구안 문화마당의 좁은 골목들, 서호시장의 신선한 굴 한 접시 — 여수보다 덜 알려진 만큼 인파도 덜하다.
 
@@ -57,7 +57,7 @@ cover:
 
 ### 경북 경주
 
-![경주 불국사](https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=900&q=75)
+![경주 불국사](/images/travel/gyeongju.jpg)
 
 아이들에게 교과서 밖 역사를 보여줄 수 있는 몇 안 되는 여행지다. 첨성대, 대릉원, 불국사, 석굴암 — 하루 이틀 일정으로도 충분히 다양하게 돌아볼 수 있다. 5월 봄 날씨에 자전거 타고 대릉원 주변을 도는 것만으로도 여행이 완성된다.
 
@@ -93,7 +93,7 @@ cover:
 
 ### 전북 전주
 
-![전주 한옥마을](https://images.unsplash.com/photo-1605207580862-bde8c5ae44db?auto=format&fit=crop&w=900&q=75)
+![전주 한옥마을](/images/travel/jeonju.jpg)
 
 한옥마을은 이미 유명해졌지만, 막상 가보면 아직도 새롭게 발견할 골목이 많다. 아침 일찍 움직이면 관광객 없는 조용한 한옥마을을 온전히 즐길 수 있다. 비빔밥 한 그릇에 막걸리 한 잔, 남문시장 전집 투어 — 혼자 다니기 딱 좋은 속도다.
 
@@ -106,7 +106,7 @@ cover:
 
 ### 제주 서귀포
 
-![제주 주상절리](https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=900&q=75)
+![제주](/images/travel/jeju.jpg)
 
 5월 제주는 유채꽃 시즌이 끝나고 인파가 살짝 빠지는 타이밍이다. 그래도 날씨는 1년 중 가장 좋다. 서귀포 쪽은 북쪽에 비해 더 차분하고 뷰가 강렬하다. 외돌개, 주상절리, 정방폭포 — 제주 특유의 날것의 풍경이 여기 다 있다.
 
