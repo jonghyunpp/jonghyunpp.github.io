@@ -27,21 +27,23 @@ ShowReadingTime: false
   background: #059669; border-radius: 1px; flex-shrink: 0;
 }
 
-/* 반응형 테이블 — overflow-x 스크롤 방식 */
+/* 반응형 테이블 */
 .lf-table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 12px 0; }
-.lf-table-scroll-inner { border-radius: 8px; border: 0.5px solid var(--border); overflow: hidden; display: inline-block; min-width: 100%; }
-.lf-table { width: 100%; border-collapse: collapse; font-size: 12px; white-space: nowrap; }
+.lf-table-scroll-inner { overflow: hidden; min-width: 100%; }
+.lf-table { width: 100%; border-collapse: collapse; font-size: 0.92em; word-break: break-word; white-space: normal; }
 .lf-table th {
-  background: var(--code-bg); color: var(--secondary);
-  padding: 8px 14px; text-align: left; font-weight: 500; font-size: 11px;
-  border-bottom: 0.5px solid var(--border);
+  background: #1e40af; color: #fff;
+  padding: 10px 14px; text-align: left; font-weight: 600; font-size: 0.92em;
+  border: 1px solid rgba(128,128,128,0.18);
 }
 .lf-table th.center, .lf-table td.center { text-align: center; }
 .lf-table td {
-  padding: 9px 14px; border-bottom: 0.5px solid var(--border);
+  padding: 9px 14px;
+  border: 1px solid rgba(128,128,128,0.18);
   background: var(--entry); color: var(--primary); vertical-align: middle;
 }
-.lf-table tr:last-child td { border-bottom: none; }
+.lf-table tbody tr:nth-child(even) td { background: rgba(37,99,235,0.04); }
+.lf-table tbody tr:hover td { background: rgba(37,99,235,0.08); }
 .lf-table .amount { font-weight: 600; color: #059669; }
 .lf-table .dim { color: var(--secondary); }
 
