@@ -8,7 +8,7 @@ ShowToc: false
 ShowReadingTime: false
 summary: "매달 70만 원 넣으면 정부가 최대 6%를 얹어준다. 청년도약계좌 조건·금리·절세 혜택까지 한 번에 정리했다."
 cover:
-  image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=75"
+  image: "/images/life/savings.jpg"
   alt: "청년도약계좌 저축"
   relative: false
 ---

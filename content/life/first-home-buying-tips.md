@@ -8,7 +8,7 @@ ShowToc: false
 ShowReadingTime: false
 summary: "취득세 감면부터 디딤돌 대출까지. 생애최초 주택을 살 때 챙기면 수백만 원 아끼는 혜택들을 정리했다."
 cover:
-  image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=75"
+  image: "/images/life/housing.jpg"
   alt: "생애최초 주택 구매"
   relative: false
 ---

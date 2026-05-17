@@ -371,19 +371,22 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 }
 
 /* ── 본문: 테이블 ── */
+/* PaperMod 기본값(display:block, overflow-x:auto, td:first-child width:40px) 전부 덮어쓰기 */
 .post-content table {
+  display: table !important;
   width: 100% !important;
   max-width: 100% !important;
-  border-collapse: collapse;
+  overflow-x: visible !important;
+  border-collapse: collapse !important;
+  table-layout: auto !important;
   margin: 1.2em 0;
   font-size: 0.92em;
-  display: table !important;
 }
 
-/* PaperMod가 table을 감싸는 wrapper가 있을 경우 대응 */
-.post-content .table-wrapper {
-  overflow-x: visible !important;
-  width: 100% !important;
+.post-content td:first-child,
+.post-content th:first-child {
+  width: auto !important;
+  min-width: 0 !important;
 }
 
 .post-content thead th {
@@ -405,7 +408,7 @@ h3 { font-size: clamp(0.95rem, 2.5vw, 1.1rem); font-weight: 600; }
 .post-content td,
 .post-content th {
   padding: 9px 14px;
-  border: 1px solid rgba(128, 128, 128, 0.18);
+  border: 1px solid rgba(128, 128, 128, 0.18) !important;
 }
 
 /* ── 본문: H2 구분 ── */
