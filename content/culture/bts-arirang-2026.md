@@ -64,7 +64,7 @@ BTS의 마지막 정규 앨범은 2022년이었다. 이후 약 3년 9개월간 �
 
 <p style="font-size: 14px; font-weight: 800; letter-spacing: 0.05em; color: var(--primary); border-left: 3px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">발매 첫날</p>
 
-스포티파이 글로벌 톱50 차트 1~14위를 수록곡 14곡이 모두 채웠다. 첫날 총 스트리밍 1억 1,000만 회로 2026년 앨범 중 최다 기록. 빌보드200 1위 데뷔, 첫 주 앨범 환산 판매량 64만 1,000장 — 빌보드가 앨범 환산 집계를 시작한 2014년 이후 그룹 기준 주간 최다 판매다.
+스포티파이 글로벌 톱50 차트 1–14위를 수록곡 14곡이 모두 채웠다. 첫날 총 스트리밍 1억 1,000만 회로 2026년 앨범 중 최다 기록. 빌보드200 1위 데뷔, 첫 주 앨범 환산 판매량 64만 1,000장 — 빌보드가 앨범 환산 집계를 시작한 2014년 이후 그룹 기준 주간 최다 판매다.
 
 <p style="font-size: 14px; font-weight: 800; letter-spacing: 0.05em; color: var(--primary); border-left: 3px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">4주 차 현재</p>
 
@@ -85,7 +85,7 @@ BTS의 마지막 정규 앨범은 2022년이었다. 이후 약 3년 9개월간 �
 
 <p style="font-size: 14px; font-weight: 800; letter-spacing: 0.05em; color: var(--primary); border-left: 3px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">도쿄돔</p>
 
-4월 17~18일 도쿄돔 공연에서 11만 명이 모였다. 'Body to Body' 공연 중 한국 민요 아리랑 선율이 흐르자 일본 관객들이 함께 따라 불렀다. 이 장면은 "음악 역사에 남을 전설적 순간"이라는 평가를 받았다.
+4월 17–18일 도쿄돔 공연에서 11만 명이 모였다. 'Body to Body' 공연 중 한국 민요 아리랑 선율이 흐르자 일본 관객들이 함께 따라 불렀다. 이 장면은 "음악 역사에 남을 전설적 순간"이라는 평가를 받았다.
 
 <p style="font-size: 14px; font-weight: 800; letter-spacing: 0.05em; color: var(--primary); border-left: 3px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">평단 반응</p>
 
@@ -101,7 +101,7 @@ BTS의 마지막 정규 앨범은 2022년이었다. 이후 약 3년 9개월간 �
 
 <p style="font-size: 14px; font-weight: 800; letter-spacing: 0.05em; color: var(--primary); border-left: 3px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">BTS 경제 효과의 규모</p>
 
-현대경제연구원은 BTS가 창출하는 연간 경제 효과를 약 5조 6,000억 원으로 분석했다. 국내 GDP의 약 0.3%에 해당하는 수치다. 월드투어 85회 공연이 진행되는 2026~2027년, 그 파급력이 어느 정도일지 가늠이 안 될 정도다.
+현대경제연구원은 BTS가 창출하는 연간 경제 효과를 약 5조 6,000억 원으로 분석했다. 국내 GDP의 약 0.3%에 해당하는 수치다. 월드투어 85회 공연이 진행되는 2026–2027년, 그 파급력이 어느 정도일지 가늠이 안 될 정도다.
 
 ---
 
