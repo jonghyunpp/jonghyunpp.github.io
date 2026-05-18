@@ -449,11 +449,27 @@ h3 { font-size: clamp(1.0rem, 2.5vw, 1.1rem); font-weight: 600; line-height: 1.4
   margin: 2em 0;
 }
 
-/* ── 뉴스 주요지수 표 (파스텔) ── */
+/* ── 뉴스 주요지수 표 (파스텔 + 가로폭 맞춤) ── */
+article[data-section="news"] .nw4-index-wrap,
+article[data-section="news"] .nw3-index-wrap {
+  width: 100%;
+}
+article[data-section="news"] .nw4-index-table,
+article[data-section="news"] .nw3-index-table {
+  display: table !important;
+  width: 100% !important;
+  table-layout: auto !important;
+  min-width: 0 !important;
+}
 article[data-section="news"] .nw4-index-table th,
 article[data-section="news"] .nw3-index-table th {
   background: rgba(var(--cat-rgb), 0.12) !important;
   color: rgb(var(--cat-rgb)) !important;
+  padding: 7px 10px !important;
+}
+article[data-section="news"] .nw4-index-table td,
+article[data-section="news"] .nw3-index-table td {
+  padding: 7px 10px !important;
 }
 article[data-section="news"] .nw4-index-table tbody tr:nth-child(even) td,
 article[data-section="news"] .nw3-index-table tbody tr:nth-child(even) td {
