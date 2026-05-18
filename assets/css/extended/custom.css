@@ -10,7 +10,7 @@ body {
 body { --cat-rgb: 37,99,235; }
 article[data-section="news"]    { --cat-rgb: 29,158,117; }
 article[data-section="life"]    { --cat-rgb: 55,138,221; }
-article[data-section="culture"] { --cat-rgb: 202,138,4; }
+article[data-section="culture"] { --cat-rgb: 220,38,38; }
 article[data-section="travel"]  { --cat-rgb: 186,117,23; }
 
 a { text-decoration: none; }
@@ -185,7 +185,7 @@ h3 { font-size: clamp(1.0rem, 2.5vw, 1.1rem); font-weight: 600; line-height: 1.4
 .jh-cat-bar { height: 2px; margin-top: 12px; border-radius: 1px; }
 .bar-news    { background: rgb(29,158,117); }
 .bar-life    { background: rgb(55,138,221); }
-.bar-culture { background: rgb(202,138,4); }
+.bar-culture { background: rgb(220,38,38); }
 .bar-travel  { background: rgb(186,117,23); }
 
 /* ── 메인: 피드 섹션 ── */
@@ -236,7 +236,7 @@ h3 { font-size: clamp(1.0rem, 2.5vw, 1.1rem); font-weight: 600; line-height: 1.4
 /* 카테고리 컬러 */
 .jh-fc-news    { color: rgb(29,158,117); }
 .jh-fc-life    { color: rgb(55,138,221); }
-.jh-fc-culture { color: rgb(202,138,4); }
+.jh-fc-culture { color: rgb(220,38,38); }
 .jh-fc-travel  { color: rgb(186,117,23); }
 
 /* ── 섹션 페이지: 헤더 ── */
@@ -259,7 +259,7 @@ h3 { font-size: clamp(1.0rem, 2.5vw, 1.1rem); font-weight: 600; line-height: 1.4
 /* 배지 — rgba 배경으로 다크모드 자동 대응 */
 .badge-news    { background: rgba(29,158,117,0.12); color: rgb(29,158,117); }
 .badge-life    { background: rgba(55,138,221,0.12); color: rgb(55,138,221); }
-.badge-culture { background: rgba(202,138,4,0.12); color: rgb(202,138,4); }
+.badge-culture { background: rgba(220,38,38,0.12); color: rgb(220,38,38); }
 .badge-travel  { background: rgba(186,117,23,0.12); color: rgb(186,117,23); }
 
 .jh-section-name {
