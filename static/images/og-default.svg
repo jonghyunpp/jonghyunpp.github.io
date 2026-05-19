@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect width="1200" height="5" fill="#1e293b"/>
+  <circle cx="1080" cy="600" r="320" fill="#f8fafc"/>
+  <circle cx="1080" cy="600" r="220" fill="#f1f5f9"/>
+  <rect x="80" y="80" width="5" height="380" rx="3" fill="#1e293b"/>
+  <text x="110" y="200" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#1e293b" letter-spacing="-1">jonghyunp's BLOG</text>
+  <text x="112" y="278" font-family="Georgia, serif" font-size="30" fill="#475569">매일 스쳐가는 것 중, 기억할 만한 것만.</text>
+  <text x="112" y="340" font-family="Georgia, serif" font-size="22" fill="#94a3b8">뉴스  ·  생활  ·  문화  ·  여행</text>
+  <text x="112" y="520" font-family="Georgia, serif" font-size="20" fill="#cbd5e1">jonghyunp.me.kr</text>
+</svg>

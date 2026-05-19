@@ -5,6 +5,7 @@ draft: false
 categories: ["생활"]
 tags: ["고유가지원금", "피해지원금", "정부지원금", "민생지원", "생활정보"]
 description: "오늘부터 신청 시작! 대상·금액·신청방법 한 번에 정리했습니다"
+summary: "기초생활·차상위·일반 저소득층 대상 고유가 피해지원금. 최대 30만 원, 신청 방법과 지급 일정을 한 번에 정리했다."
 ShowToc: false
 ShowReadingTime: false
 ---
