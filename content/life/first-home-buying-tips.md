@@ -27,6 +27,36 @@ cover:
 
 ## 챙겨야 할 혜택 5가지
 
+{{< rawhtml >}}
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin:1.2em 0 1.8em;">
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(55,138,221,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(55,138,221,0.03);">
+    <div style="font-size:1.5rem;margin-bottom:6px;">🏠</div>
+    <div style="font-size:0.75rem;font-weight:700;color:rgb(55,138,221);margin-bottom:4px;">취득세 감면</div>
+    <div style="font-size:0.85rem;font-weight:800;">최대 200만 원</div>
+  </div>
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(55,138,221,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(55,138,221,0.03);">
+    <div style="font-size:1.5rem;margin-bottom:6px;">💰</div>
+    <div style="font-size:0.75rem;font-weight:700;color:rgb(55,138,221);margin-bottom:4px;">디딤돌 대출</div>
+    <div style="font-size:0.85rem;font-weight:800;">연 2–3%대</div>
+  </div>
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(55,138,221,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(55,138,221,0.03);">
+    <div style="font-size:1.5rem;margin-bottom:6px;">🎫</div>
+    <div style="font-size:0.75rem;font-weight:700;color:rgb(55,138,221);margin-bottom:4px;">생애최초 특공</div>
+    <div style="font-size:0.85rem;font-weight:800;">당첨 확률 ↑</div>
+  </div>
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(55,138,221,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(55,138,221,0.03);">
+    <div style="font-size:1.5rem;margin-bottom:6px;">🤝</div>
+    <div style="font-size:0.75rem;font-weight:700;color:rgb(55,138,221);margin-bottom:4px;">중개보수 협상</div>
+    <div style="font-size:0.85rem;font-weight:800;">요율 깎기 가능</div>
+  </div>
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(55,138,221,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(55,138,221,0.03);">
+    <div style="font-size:1.5rem;margin-bottom:6px;">🛡️</div>
+    <div style="font-size:0.75rem;font-weight:700;color:rgb(55,138,221);margin-bottom:4px;">전세사기 방지</div>
+    <div style="font-size:0.85rem;font-weight:800;">필수 확인 3가지</div>
+  </div>
+</div>
+{{< /rawhtml >}}
+
 ### 1. 취득세 감면 — 최대 200만 원
 
 생애최초로 주택을 취득하면 취득세를 감면받을 수 있다. **12억 원 이하 주택** 구매 시 200만 원 한도로 취득세를 돌려받는다.
@@ -90,17 +120,36 @@ cover:
 
 매매 계약 시 일반적으로 필요한 서류다.
 
-**매수인(사는 사람) 준비 서류**
-- 신분증
-- 주민등록등본
-- 가족관계증명서 (배우자 있을 경우)
-- 혼인관계증명서 (생애최초 특공 등 혜택 적용 시)
-- 소득 증빙 서류 (디딤돌 대출 신청 시 — 근로소득원천징수영수증, 건강보험료 납부확인서 등)
-
-**계약 전 확인 서류**
-- 등기부등본 (권리 분석용)
-- 건축물대장 (위반 건축물 여부 확인)
-- 토지이용계획확인서 (재개발·재건축 여부)
+{{< rawhtml >}}
+<div style="display:flex;gap:14px;flex-wrap:wrap;margin:1.2em 0;">
+  <div style="flex:1;min-width:220px;border:1.5px solid rgba(55,138,221,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(55,138,221,0.08);padding:10px 14px;font-weight:700;font-size:0.88rem;color:rgb(55,138,221);">📋 매수인 준비 서류</div>
+    <div style="padding:14px;">
+      <div style="display:flex;flex-direction:column;gap:9px;font-size:0.85rem;color:#374151;">
+        <div style="display:flex;align-items:center;gap:8px;"><span style="color:rgb(55,138,221);">☑</span> 신분증</div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="color:rgb(55,138,221);">☑</span> 주민등록등본</div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="color:rgb(55,138,221);">☑</span> 가족관계증명서 <span style="color:#9ca3af;font-size:0.8rem;">(배우자 있을 경우)</span></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="color:rgb(55,138,221);">☑</span> 혼인관계증명서 <span style="color:#9ca3af;font-size:0.8rem;">(특공·혜택 신청 시)</span></div>
+        <div style="display:flex;align-items:flex-start;gap:8px;"><span style="color:rgb(55,138,221);margin-top:1px;">☑</span> <span>소득 증빙 서류 <span style="color:#9ca3af;font-size:0.8rem;">(디딤돌 대출 — 원천징수영수증, 건보료 납부확인서)</span></span></div>
+      </div>
+    </div>
+  </div>
+  <div style="flex:1;min-width:220px;border:1.5px solid rgba(55,138,221,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(55,138,221,0.08);padding:10px 14px;font-weight:700;font-size:0.88rem;color:rgb(55,138,221);">🔍 계약 전 확인 서류</div>
+    <div style="padding:14px;">
+      <div style="display:flex;flex-direction:column;gap:9px;font-size:0.85rem;color:#374151;">
+        <div style="display:flex;align-items:center;gap:8px;"><span style="color:rgb(55,138,221);">☑</span> 등기부등본 <span style="color:#9ca3af;font-size:0.8rem;">(권리 분석)</span></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="color:rgb(55,138,221);">☑</span> 건축물대장 <span style="color:#9ca3af;font-size:0.8rem;">(위반 건축물 확인)</span></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="color:rgb(55,138,221);">☑</span> 토지이용계획확인서 <span style="color:#9ca3af;font-size:0.8rem;">(재개발 여부)</span></div>
+        <div style="display:flex;align-items:flex-start;gap:8px;margin-top:6px;padding-top:10px;border-top:1px solid #f3f4f6;">
+          <span style="color:#dc2626;margin-top:1px;">⚠</span>
+          <span style="color:#991b1b;font-size:0.82rem;line-height:1.5;">잔금일 <b>당일 오전 등기부등본 재확인</b> 필수</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 ---
 

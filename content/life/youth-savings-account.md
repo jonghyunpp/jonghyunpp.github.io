@@ -56,36 +56,89 @@ cover:
 
 연 소득 3,600만 원, 매달 70만 원 납입 기준:
 
-- 5년 납입 원금: **4,200만 원**
-- 은행 이자 (연 4% 가정): 약 **430만 원**
-- 정부 기여금 (4.6% × 월 50만 원 × 60개월): 약 **138만 원**
-- 합계: 약 **4,768만 원**
-
-이자 소득세 비과세 혜택까지 포함하면 일반 적금 대비 수십만 원이 더 유리하다.
+{{< rawhtml >}}
+<div style="margin:1.2em 0;border:1.5px solid rgba(55,138,221,0.2);border-radius:12px;padding:22px;background:rgba(55,138,221,0.03);">
+  <div style="font-weight:700;font-size:0.93rem;margin-bottom:18px;color:#374151;">5년 수익 구성 시뮬레이션</div>
+  <div style="height:16px;border-radius:8px;overflow:hidden;display:flex;margin-bottom:14px;">
+    <div style="flex:4200;background:#d1d5db;"></div>
+    <div style="flex:430;background:rgba(55,138,221,0.45);"></div>
+    <div style="flex:138;background:rgb(55,138,221);"></div>
+  </div>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:0.82rem;margin-bottom:20px;">
+    <div style="display:flex;align-items:center;gap:6px;">
+      <div style="width:12px;height:12px;border-radius:3px;background:#d1d5db;flex-shrink:0;"></div>
+      <span>원금 <b>4,200만 원</b></span>
+    </div>
+    <div style="display:flex;align-items:center;gap:6px;">
+      <div style="width:12px;height:12px;border-radius:3px;background:rgba(55,138,221,0.45);flex-shrink:0;"></div>
+      <span>은행 이자 <b>430만 원</b></span>
+    </div>
+    <div style="display:flex;align-items:center;gap:6px;">
+      <div style="width:12px;height:12px;border-radius:3px;background:rgb(55,138,221);flex-shrink:0;"></div>
+      <span style="font-weight:600;color:rgb(55,138,221);">정부 기여금 138만 원 ★ 무상</span>
+    </div>
+  </div>
+  <div style="border-top:1px solid rgba(55,138,221,0.15);padding-top:14px;display:flex;justify-content:space-between;align-items:center;">
+    <span style="font-size:0.9rem;font-weight:600;color:#374151;">5년 후 합계</span>
+    <span style="font-size:1.35rem;font-weight:800;color:rgb(55,138,221);">약 4,768만 원</span>
+  </div>
+  <div style="margin-top:6px;font-size:0.78rem;color:#9ca3af;">비과세 혜택 포함 시 일반 적금 대비 수십만 원 추가 유리</div>
+</div>
+{{< /rawhtml >}}
 
 ---
 
 ## 모르면 손해인 꿀팁들
 
-**① 청년희망적금과 중복 가입 불가 — 우선순위 정해야**
-
-청년희망적금(2022년 가입자)과 청년도약계좌는 동시에 가입할 수 없다. 청년희망적금 만기 후 청년도약계좌로 전환하는 '연계 전환' 제도가 있으니, 청년희망적금 만기가 도래했다면 바로 전환하는 게 이득이다.
-
-**② 자유 납입 — 매달 꼭 70만 원 안 넣어도 된다**
-
-최소 납입 금액 제한이 없다. 형편에 따라 월 1만 원만 넣어도 된다. 정부 기여금은 실제 납입 금액에 비례해서 지급된다.
-
-**③ 중도 해지 요건 확인**
-
-5년 이전에 해지하면 정부 기여금과 비과세 혜택이 사라진다. 단, **특별 중도 해지** 사유(사망, 해외 이주, 퇴직, 폐업, 재난 피해 등)에 해당하면 혜택 유지 상태로 해지가 가능하다.
-
-**④ 가입 월에 소득 신청 유의**
-
-가입 신청 당월 소득은 아직 반영되지 않아 불이익이 생길 수 있다. 이전 연도 소득을 기준으로 가입하는 것이 유리한 경우도 있다.
-
-**⑤ 군 복무자는 나이 제한이 유연하다**
-
-병역 이행 기간은 나이 계산에서 빠진다. 만 34세가 지났어도 군 복무 기간(최대 2년)을 더해 최대 만 36세까지 가입 가능하다.
+{{< rawhtml >}}
+<div style="display:flex;flex-direction:column;gap:10px;margin:1.5em 0;">
+  <div style="border:1.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+    <div style="background:#f9fafb;padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #e5e7eb;">
+      <span style="font-weight:800;color:rgb(55,138,221);font-size:0.95rem;min-width:20px;">①</span>
+      <span style="font-weight:700;font-size:0.9rem;">청년희망적금과 중복 가입 불가 — 우선순위 정해야</span>
+    </div>
+    <div style="padding:12px 16px;font-size:0.85rem;color:#4b5563;line-height:1.65;">
+      청년희망적금(2022년 가입자)과 청년도약계좌는 동시에 가입할 수 없다. 청년희망적금 만기 후 <b>연계 전환 제도</b>를 통해 청년도약계좌로 전환 가능하니, 만기가 도래했다면 바로 전환하는 게 이득이다.
+    </div>
+  </div>
+  <div style="border:1.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+    <div style="background:#f9fafb;padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #e5e7eb;">
+      <span style="font-weight:800;color:rgb(55,138,221);font-size:0.95rem;min-width:20px;">②</span>
+      <span style="font-weight:700;font-size:0.9rem;">자유 납입 — 매달 꼭 70만 원 안 넣어도 된다</span>
+    </div>
+    <div style="padding:12px 16px;font-size:0.85rem;color:#4b5563;line-height:1.65;">
+      최소 납입 금액 제한이 없다. 형편에 따라 월 1만 원만 넣어도 된다. 정부 기여금은 실제 납입 금액에 비례해서 지급된다.
+    </div>
+  </div>
+  <div style="border:1.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+    <div style="background:#f9fafb;padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #e5e7eb;">
+      <span style="font-weight:800;color:rgb(55,138,221);font-size:0.95rem;min-width:20px;">③</span>
+      <span style="font-weight:700;font-size:0.9rem;">중도 해지 요건 확인</span>
+    </div>
+    <div style="padding:12px 16px;font-size:0.85rem;color:#4b5563;line-height:1.65;">
+      5년 이전 해지 시 정부 기여금과 비과세 혜택이 모두 사라진다. 단, <b>특별 중도 해지 사유</b>(사망·해외이주·퇴직·폐업·재난 피해 등)에 해당하면 혜택 유지 상태로 해지 가능하다.
+    </div>
+  </div>
+  <div style="border:1.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+    <div style="background:#f9fafb;padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #e5e7eb;">
+      <span style="font-weight:800;color:rgb(55,138,221);font-size:0.95rem;min-width:20px;">④</span>
+      <span style="font-weight:700;font-size:0.9rem;">가입 월에 소득 신청 유의</span>
+    </div>
+    <div style="padding:12px 16px;font-size:0.85rem;color:#4b5563;line-height:1.65;">
+      가입 신청 당월 소득은 아직 반영되지 않아 불이익이 생길 수 있다. 이전 연도 소득을 기준으로 가입하는 것이 유리한 경우도 있다.
+    </div>
+  </div>
+  <div style="border:1.5px solid rgba(55,138,221,0.25);border-radius:10px;overflow:hidden;background:rgba(55,138,221,0.02);">
+    <div style="background:rgba(55,138,221,0.07);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(55,138,221,0.15);">
+      <span style="font-weight:800;color:rgb(55,138,221);font-size:0.95rem;min-width:20px;">⑤</span>
+      <span style="font-weight:700;font-size:0.9rem;color:rgb(55,138,221);">군 복무자는 나이 제한이 유연하다</span>
+    </div>
+    <div style="padding:12px 16px;font-size:0.85rem;color:#4b5563;line-height:1.65;">
+      병역 이행 기간은 나이 계산에서 빠진다. 만 34세가 지났어도 군 복무 기간(최대 2년)을 더해 <b>최대 만 36세까지 가입 가능</b>하다. 많이들 모르고 포기하는 케이스다.
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 ---
 
