@@ -11,6 +11,21 @@ ShowReadingTime: false
 
 요즘 극장가에서 같은 현상이 두 번 반복됐다. 영화가 극장을 벗어나 현실 공간 속으로 파고드는 것. 장르도, 규모도, 감성도 전혀 다른 두 작품이 그 현상을 동시에 만들어냈다.
 
+{{< rawhtml >}}
+<div style="display:flex;gap:14px;flex-wrap:wrap;margin:1.5em 0;">
+  <div style="flex:1;min-width:200px;border:1.5px solid rgba(220,38,38,0.2);border-radius:12px;padding:18px;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.75rem;font-weight:700;color:rgb(220,38,38);margin-bottom:10px;">🎬 왕과 사는 남자 · 2026.2.4 개봉 · 사극</div>
+    <div style="font-size:1.5rem;font-weight:800;margin-bottom:8px;">1,661만 명</div>
+    <div style="font-size:0.82rem;color:#6b7280;line-height:1.7;">역대 한국 영화 박스오피스 2위<br>2020년대 개봉 한국 영화 흥행 1위<br>청령포 방문객 <b style="color:#374151;">3.6배</b> 증가</div>
+  </div>
+  <div style="flex:1;min-width:200px;border:1.5px solid rgba(220,38,38,0.2);border-radius:12px;padding:18px;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.75rem;font-weight:700;color:rgb(220,38,38);margin-bottom:10px;">🎬 살목지 · 2026.4.8 개봉 · 공포</div>
+    <div style="font-size:1.5rem;font-weight:800;margin-bottom:8px;">160만 명</div>
+    <div style="font-size:0.82rem;color:#6b7280;line-height:1.7;">제작비 30억 → 7일 만에 손익분기점<br>10대 관객 비중 <b style="color:#374151;">10.7%</b> (동장르 최고)<br>예산 살목지 성지순례 급증</div>
+  </div>
+</div>
+{{< /rawhtml >}}
+
 ---
 
 ## 왕과 사는 남자

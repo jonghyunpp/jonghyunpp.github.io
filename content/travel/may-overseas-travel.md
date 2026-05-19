@@ -11,6 +11,26 @@ summary: "5월 해외여행, 어디로 갈지 모르겠다면. 커플·가족·�
 
 5월은 해외 여행하기 가장 좋은 달이다. 일본은 골든위크가 막 끝나 인파가 빠지고, 동남아는 건기 막바지라 날씨가 안정적이고, 유럽은 여름 피크 전 마지막 여유가 있다. 상황에 맞게 골라보자.
 
+{{< rawhtml >}}
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin:1.2em 0 1.8em;">
+  <div style="flex:1;min-width:160px;border:1.5px solid rgba(186,117,23,0.25);border-radius:12px;padding:16px;background:rgba(186,117,23,0.03);">
+    <div style="font-size:0.72rem;font-weight:700;color:rgb(186,117,23);margin-bottom:8px;">💑 커플</div>
+    <div style="font-weight:700;margin-bottom:7px;font-size:0.9rem;">분위기 있게, 기억에 남게</div>
+    <div style="font-size:0.82rem;color:#6b7280;line-height:1.7;">📍 일본 교토<br>📍 포르투갈 리스본+포르투</div>
+  </div>
+  <div style="flex:1;min-width:160px;border:1.5px solid rgba(186,117,23,0.25);border-radius:12px;padding:16px;background:rgba(186,117,23,0.03);">
+    <div style="font-size:0.72rem;font-weight:700;color:rgb(186,117,23);margin-bottom:8px;">👨‍👩‍👧 가족</div>
+    <div style="font-weight:700;margin-bottom:7px;font-size:0.9rem;">아이들도 편하고 즐겁게</div>
+    <div style="font-size:0.82rem;color:#6b7280;line-height:1.7;">📍 일본 오사카<br>📍 베트남 다낭</div>
+  </div>
+  <div style="flex:1;min-width:160px;border:1.5px solid rgba(186,117,23,0.25);border-radius:12px;padding:16px;background:rgba(186,117,23,0.03);">
+    <div style="font-size:0.72rem;font-weight:700;color:rgb(186,117,23);margin-bottom:8px;">🚶 혼자 / 친구와</div>
+    <div style="font-weight:700;margin-bottom:7px;font-size:0.9rem;">자유롭게, 깊게</div>
+    <div style="font-size:0.82rem;color:#6b7280;line-height:1.7;">📍 태국 치앙마이</div>
+  </div>
+</div>
+{{< /rawhtml >}}
+
 ---
 
 ## 커플 — 분위기 있게, 기억에 남게
@@ -112,14 +132,31 @@ USJ를 간다면 우메다나 난바 쪽 호텔이 접근성이 좋다. 트윈·
 
 ## 5월 해외 여행, 이것만 챙기자
 
-**① 항공권은 지금 바로**
-5월 중순–하순 주말 항공권은 이미 가격이 오르고 있다. 일정이 확정됐다면 오늘 바로 검색해보는 게 낫다. 스카이스캐너, 네이버 항공에서 날짜 유연 검색으로 전후 1–2일 비교해보면 차이가 크다.
-
-**② 트래블카드 챙기기**
-트래블로그(하나), 트래블월렛, 토스 외화카드 — 환전 수수료 없이 현지 ATM 인출이 가능하다. 현금 들고 다닐 필요가 없다.
-
-**③ 로밍 vs 현지 유심**
-일본은 현지 유심(아마존 재팬 프리) 또는 이심(eSIM)이 통신사 로밍보다 절반 이하다. 동남아는 현지 공항에서 유심 구매가 제일 편하다.
+{{< rawhtml >}}
+<div style="display:flex;flex-direction:column;gap:10px;margin:1.2em 0;">
+  <div style="border:1.5px solid rgba(186,117,23,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:800;color:rgb(186,117,23);">①</span>
+      <span style="font-weight:700;font-size:0.9rem;">항공권은 지금 바로</span>
+    </div>
+    <div style="padding:11px 16px;font-size:0.85rem;color:#4b5563;line-height:1.65;">5월 중순–하순 주말 항공권은 이미 가격이 오르고 있다. 스카이스캐너, 네이버 항공에서 날짜 유연 검색으로 전후 1–2일 비교해보면 차이가 크다.</div>
+  </div>
+  <div style="border:1.5px solid rgba(186,117,23,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:800;color:rgb(186,117,23);">②</span>
+      <span style="font-weight:700;font-size:0.9rem;">트래블카드 챙기기</span>
+    </div>
+    <div style="padding:11px 16px;font-size:0.85rem;color:#4b5563;line-height:1.65;">트래블로그(하나), 트래블월렛, 토스 외화카드 — 환전 수수료 없이 현지 ATM 인출 가능. 현금 들고 다닐 필요 없다.</div>
+  </div>
+  <div style="border:1.5px solid rgba(186,117,23,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:800;color:rgb(186,117,23);">③</span>
+      <span style="font-weight:700;font-size:0.9rem;">로밍 vs 현지 유심</span>
+    </div>
+    <div style="padding:11px 16px;font-size:0.85rem;color:#4b5563;line-height:1.65;">일본은 현지 유심 또는 이심(eSIM)이 통신사 로밍보다 절반 이하. 동남아는 현지 공항에서 유심 구매가 제일 편하다.</div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 ---
 

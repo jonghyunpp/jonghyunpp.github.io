@@ -49,6 +49,28 @@ BTS의 마지막 정규 앨범은 2022년이었다. 이후 약 3년 9개월간 �
 
 전통과 글로벌이 동시에 녹아든 구성이다.
 
+{{< rawhtml >}}
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin:1.5em 0;">
+  <div style="flex:1;min-width:110px;border:1.5px solid rgba(220,38,38,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.7rem;color:rgb(220,38,38);font-weight:700;margin-bottom:5px;">발매일</div>
+    <div style="font-size:0.95rem;font-weight:800;">2026.3.20</div>
+  </div>
+  <div style="flex:1;min-width:110px;border:1.5px solid rgba(220,38,38,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.7rem;color:rgb(220,38,38);font-weight:700;margin-bottom:5px;">수록곡</div>
+    <div style="font-size:0.95rem;font-weight:800;">14곡 전원 작사·작곡</div>
+  </div>
+  <div style="flex:1;min-width:110px;border:1.5px solid rgba(220,38,38,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.7rem;color:rgb(220,38,38);font-weight:700;margin-bottom:5px;">발매 첫날 스트리밍</div>
+    <div style="font-size:0.95rem;font-weight:800;">1억 1,000만 회</div>
+  </div>
+  <div style="flex:1;min-width:110px;border:2px solid rgba(220,38,38,0.3);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(220,38,38,0.05);">
+    <div style="font-size:0.7rem;color:rgb(220,38,38);font-weight:700;margin-bottom:5px;">첫 주 판매량</div>
+    <div style="font-size:0.95rem;font-weight:800;color:rgb(220,38,38);">64.1만 장</div>
+    <div style="font-size:0.68rem;color:#6b7280;margin-top:2px;">그룹 역대 최다</div>
+  </div>
+</div>
+{{< /rawhtml >}}
+
 <figure style="margin: 24px auto; text-align: center;">
   <a href="https://www.youtube.com/watch?v=b4iVv91Z6lY" target="_blank" rel="noopener" style="display: block;">
     <img src="https://img.youtube.com/vi/b4iVv91Z6lY/maxresdefault.jpg"
@@ -69,6 +91,31 @@ BTS의 마지막 정규 앨범은 2022년이었다. 이후 약 3년 9개월간 �
 <p style="font-size: 14px; font-weight: 800; letter-spacing: 0.05em; color: var(--primary); border-left: 3px solid var(--primary); padding-left: 10px; margin: 28px 0 10px;">4주 차 현재</p>
 
 타이틀곡 'SWIM'이 빌보드 핫100 4주 연속 10위권을 유지 중이다. 디지털 송 세일즈 4주 연속 1위. 빌보드200 4주 연속 톱3 — K팝 아티스트 신기록이다.
+
+{{< rawhtml >}}
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin:1.5em 0;">
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(220,38,38,0.2);border-radius:10px;padding:14px;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.7rem;color:rgb(220,38,38);font-weight:700;margin-bottom:6px;">Spotify 글로벌 TOP50</div>
+    <div style="font-size:1.05rem;font-weight:800;">1–14위 싹쓸이</div>
+    <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">14곡 전부 동시 진입</div>
+  </div>
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(220,38,38,0.2);border-radius:10px;padding:14px;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.7rem;color:rgb(220,38,38);font-weight:700;margin-bottom:6px;">빌보드 HOT100</div>
+    <div style="font-size:1.05rem;font-weight:800;">4주 연속 TOP10</div>
+    <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">디지털 세일즈 4주 1위</div>
+  </div>
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(220,38,38,0.2);border-radius:10px;padding:14px;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.7rem;color:rgb(220,38,38);font-weight:700;margin-bottom:6px;">빌보드 200</div>
+    <div style="font-size:1.05rem;font-weight:800;">4주 연속 TOP3</div>
+    <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">K팝 아티스트 신기록</div>
+  </div>
+  <div style="flex:1;min-width:130px;border:1.5px solid rgba(220,38,38,0.2);border-radius:10px;padding:14px;background:rgba(220,38,38,0.03);">
+    <div style="font-size:0.7rem;color:rgb(220,38,38);font-weight:700;margin-bottom:6px;">넷플릭스 생중계</div>
+    <div style="font-size:1.05rem;font-weight:800;">1,840만 명 시청</div>
+    <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">80개국 위클리 TOP10</div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 <figure style="margin: 24px auto; text-align: center;">
   <a href="https://www.youtube.com/watch?v=_gyultVTesk" target="_blank" rel="noopener" style="display: block;">

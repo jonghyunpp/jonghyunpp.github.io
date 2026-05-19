@@ -16,6 +16,31 @@ cover:
 
 결국 [이피엘 티켓](https://www.eplticket.com/)에서 남은 좌석을 구매하게 됐다. 가격은 솔직히 생각보다 많이 비쌌다. 하지만 이 경기를 런던에서 직접 본다는 생각에 '그냥 내 인생의 특별한 경험에 투자하자'고 마음먹었다. **돈은 다시 벌면 되지만, 이 순간은 지금뿐이니까.**
 
+{{< rawhtml >}}
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin:1.5em 0;">
+  <div style="flex:1;min-width:110px;border:1.5px solid rgba(186,117,23,0.25);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(186,117,23,0.04);">
+    <div style="font-size:0.7rem;color:rgb(186,117,23);font-weight:700;margin-bottom:5px;">경기</div>
+    <div style="font-size:0.85rem;font-weight:800;">북런던 더비</div>
+    <div style="font-size:0.68rem;color:#6b7280;margin-top:2px;">토트넘 vs 아스날</div>
+  </div>
+  <div style="flex:1;min-width:110px;border:1.5px solid rgba(186,117,23,0.25);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(186,117,23,0.04);">
+    <div style="font-size:0.7rem;color:rgb(186,117,23);font-weight:700;margin-bottom:5px;">좌석</div>
+    <div style="font-size:0.85rem;font-weight:800;">골대 앞 5번째 줄</div>
+    <div style="font-size:0.68rem;color:#6b7280;margin-top:2px;">Short-side Lower</div>
+  </div>
+  <div style="flex:1;min-width:110px;border:1.5px solid rgba(186,117,23,0.25);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(186,117,23,0.04);">
+    <div style="font-size:0.7rem;color:rgb(186,117,23);font-weight:700;margin-bottom:5px;">결과</div>
+    <div style="font-size:0.85rem;font-weight:800;">토트넘 패배</div>
+    <div style="font-size:0.68rem;color:#6b7280;margin-top:2px;">가브리엘 결승골 직관</div>
+  </div>
+  <div style="flex:1;min-width:110px;border:2px solid rgba(186,117,23,0.35);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(186,117,23,0.06);">
+    <div style="font-size:0.7rem;color:rgb(186,117,23);font-weight:700;margin-bottom:5px;">총평</div>
+    <div style="font-size:0.85rem;font-weight:800;color:rgb(186,117,23);">후회 없는 하루</div>
+    <div style="font-size:0.68rem;color:#6b7280;margin-top:2px;">돈은 다시 벌면 된다</div>
+  </div>
+</div>
+{{< /rawhtml >}}
+
 경기장 근처로 가면서부터 공기부터 달라지는 게 느껴졌다. 흰 유니폼 입은 사람들이 점점 많아지더니 자연스럽게 발걸음이 그쪽으로 모인다. 경기장 주변 건물마다 이미 분위기가 달궈져 있었다.
 
 ![런던 경기장 주변 거리 풍경 — 북런던 더비 당일 토트넘 스타디움 인근](london_street.jpeg "런던 북런던 더비 당일 경기장 주변 거리 풍경")
@@ -64,30 +89,35 @@ cover:
 
 단순히 유명한 장소만 훑고 지나가는 게 아니라, 이 도시 사람들이 진짜 좋아하는 걸 같이 경험해 본 기분이라 참 좋았다. 런던에서의 이 하루는 아마 오래도록 기억에 남을 것 같다.
 
-<div class="tip-box">
-  <div class="tip-box-title">✅ 여행자를 위한 소소한 팁</div>
-
-  <div class="tip-box-item">
-    <strong>1. 토트넘 멤버십 가입은 필수!</strong>
-    이번에 저처럼 티켓 구하기 힘들지 않으려면 미리 멤버십에 가입하는 게 좋아요.
-    <ul>
-      <li>공식 멤버십 가입 → <a href="https://www.tottenhamhotspur.com/tickets/buy-tickets/one-hotspur-membership/" target="_blank" rel="noopener">One Hotspur Membership</a></li>
-      <li>빅매치는 <strong>One Hotspur+</strong> 등급이어야 예매 확률이 훨씬 높아져요.</li>
-      <li>2차 티켓 구매는 → <a href="https://www.eplticket.com/" target="_blank" rel="noopener">이피엘 티켓 (eplticket.com)</a> — 공식 매진 시 이용했어요.</li>
-    </ul>
+{{< rawhtml >}}
+<div style="display:flex;flex-direction:column;gap:10px;margin:1.5em 0;">
+  <div style="border:1.5px solid rgba(186,117,23,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:700;color:rgb(186,117,23);">✅</span>
+      <span style="font-weight:700;font-size:0.9rem;">① 토트넘 멤버십 가입은 필수</span>
+    </div>
+    <div style="padding:12px 16px;font-size:0.85rem;color:#4b5563;line-height:1.7;">
+      공식 멤버십 → <a href="https://www.tottenhamhotspur.com/tickets/buy-tickets/one-hotspur-membership/" target="_blank" rel="noopener" style="color:rgb(186,117,23);font-weight:600;">One Hotspur Membership</a>. 빅매치는 <b>One Hotspur+ 등급</b>이어야 예매 확률이 높다.<br>
+      공식 매진 시 2차 티켓 → <a href="https://www.eplticket.com/" target="_blank" rel="noopener" style="color:rgb(186,117,23);font-weight:600;">이피엘 티켓(eplticket.com)</a>
+    </div>
   </div>
-
-  <div class="tip-box-item">
-    <strong>2. 좌석 선택 시 참고</strong>
-    <ul>
-      <li>골대 뒤 하단(Short-side Lower)은 생동감은 최고지만, 반대편 경기가 잘 안 보인다는 점은 꼭 감안하세요.</li>
-    </ul>
+  <div style="border:1.5px solid rgba(186,117,23,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:700;color:rgb(186,117,23);">✅</span>
+      <span style="font-weight:700;font-size:0.9rem;">② 좌석 선택 시 참고</span>
+    </div>
+    <div style="padding:12px 16px;font-size:0.85rem;color:#4b5563;line-height:1.7;">
+      골대 뒤 하단(Short-side Lower)은 <b>생동감은 최고</b>지만, 반대편 경기가 잘 안 보인다. 전체 흐름을 보고 싶다면 중앙 구역을 노려볼 것.
+    </div>
   </div>
-
-  <div class="tip-box-item">
-    <strong>3. 런던 펍 분위기 즐기기</strong>
-    <ul>
-      <li>경기 시작 2~3시간 전에는 근처 펍에 가서 현지 팬들의 열기를 꼭 느껴보세요. 그게 진짜 직관의 시작이니까요!</li>
-    </ul>
+  <div style="border:2px solid rgba(186,117,23,0.25);border-radius:10px;overflow:hidden;background:rgba(186,117,23,0.02);">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:700;color:rgb(186,117,23);">✅</span>
+      <span style="font-weight:700;font-size:0.9rem;color:rgb(186,117,23);">③ 런던 펍 분위기 즐기기</span>
+    </div>
+    <div style="padding:12px 16px;font-size:0.85rem;color:#4b5563;line-height:1.7;">
+      경기 시작 <b>2–3시간 전</b>에 근처 펍에 가서 현지 팬들의 열기를 꼭 느껴볼 것. 그게 진짜 직관의 시작이다.
+    </div>
   </div>
 </div>
+{{< /rawhtml >}}

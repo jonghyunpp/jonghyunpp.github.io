@@ -487,11 +487,21 @@ article[data-section="news"] .nw3-index-table tbody tr:nth-child(even) td {
   background: rgba(var(--cat-rgb), 0.04) !important;
 }
 
-/* ── 생활 lf-table (파스텔) ── */
+/* ── 생활 lf-table (가로맞춤 + 파스텔) ── */
+article[data-section="life"] .lf-table {
+  display: table !important;
+  width: 100% !important;
+  table-layout: auto !important;
+  min-width: 0 !important;
+}
 article[data-section="life"] .lf-table th {
-  background: rgba(var(--cat-rgb), 0.12);
-  color: rgb(var(--cat-rgb));
+  background: rgba(var(--cat-rgb), 0.12) !important;
+  color: rgb(var(--cat-rgb)) !important;
+  padding: 7px 10px !important;
+}
+article[data-section="life"] .lf-table td {
+  padding: 7px 10px !important;
 }
 article[data-section="life"] .lf-table tbody tr:nth-child(even) td {
-  background: rgba(var(--cat-rgb), 0.04);
+  background: rgba(var(--cat-rgb), 0.04) !important;
 }

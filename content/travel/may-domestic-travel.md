@@ -11,6 +11,26 @@ summary: "5월은 국내 여행의 피크다. 커플, 가족, 아이와 함께 �
 
 5월은 짧다. 황금연휴가 끝나고 나면 여름이 오고, 그 전의 봄 날씨는 다시 오지 않는다. 주말 한두 번의 여유를 어디서 쓸지 고민이라면, 상황별로 지금 가기 가장 좋은 곳을 정리해봤다.
 
+{{< rawhtml >}}
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin:1.2em 0 1.8em;">
+  <div style="flex:1;min-width:160px;border:1.5px solid rgba(186,117,23,0.25);border-radius:12px;padding:16px;background:rgba(186,117,23,0.03);">
+    <div style="font-size:0.72rem;font-weight:700;color:rgb(186,117,23);margin-bottom:8px;">💑 커플</div>
+    <div style="font-weight:700;margin-bottom:7px;font-size:0.9rem;">분위기가 전부인 여행</div>
+    <div style="font-size:0.82rem;color:#6b7280;line-height:1.7;">📍 전남 여수<br>📍 경남 통영</div>
+  </div>
+  <div style="flex:1;min-width:160px;border:1.5px solid rgba(186,117,23,0.25);border-radius:12px;padding:16px;background:rgba(186,117,23,0.03);">
+    <div style="font-size:0.72rem;font-weight:700;color:rgb(186,117,23);margin-bottom:8px;">👨‍👩‍👧 가족</div>
+    <div style="font-weight:700;margin-bottom:7px;font-size:0.9rem;">아이들과 함께라면</div>
+    <div style="font-size:0.82rem;color:#6b7280;line-height:1.7;">📍 경북 경주<br>📍 강원 평창/정선</div>
+  </div>
+  <div style="flex:1;min-width:160px;border:1.5px solid rgba(186,117,23,0.25);border-radius:12px;padding:16px;background:rgba(186,117,23,0.03);">
+    <div style="font-size:0.72rem;font-weight:700;color:rgb(186,117,23);margin-bottom:8px;">🚶 혼자 / 친구와</div>
+    <div style="font-weight:700;margin-bottom:7px;font-size:0.9rem;">내 페이스대로</div>
+    <div style="font-size:0.82rem;color:#6b7280;line-height:1.7;">📍 전북 전주<br>📍 제주 서귀포</div>
+  </div>
+</div>
+{{< /rawhtml >}}
+
 ---
 
 ## 커플 — 분위기가 전부인 여행
@@ -112,9 +132,31 @@ summary: "5월은 국내 여행의 피크다. 커플, 가족, 아이와 함께 �
 
 ## 5월 국내 여행, 이것만 기억하자
 
-- **황금연휴 직후 주말**이 가장 여유롭다. 연휴를 피하면 같은 숙소가 절반 가격이다.
-- 숙소는 **최소 3주 전** 예약해야 선택지가 남아 있다. 5월 주말 좋은 숙소는 일찍 찬다.
-- 여행지보다 **누구와 가느냐**가 더 중요할 때가 많다. 장소에 너무 연연하지 말자.
+{{< rawhtml >}}
+<div style="display:flex;flex-direction:column;gap:10px;margin:1.2em 0;">
+  <div style="border:1.5px solid rgba(186,117,23,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:800;color:rgb(186,117,23);">①</span>
+      <span style="font-weight:700;font-size:0.9rem;">황금연휴 직후 주말이 가장 여유롭다</span>
+    </div>
+    <div style="padding:11px 16px;font-size:0.85rem;color:#4b5563;">연휴를 피하면 같은 숙소가 절반 가격이다.</div>
+  </div>
+  <div style="border:1.5px solid rgba(186,117,23,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:800;color:rgb(186,117,23);">②</span>
+      <span style="font-weight:700;font-size:0.9rem;">숙소는 최소 3주 전 예약</span>
+    </div>
+    <div style="padding:11px 16px;font-size:0.85rem;color:#4b5563;">5월 주말 좋은 숙소는 일찍 찬다. 지금 선택지가 남아 있을 때 잡아두자.</div>
+  </div>
+  <div style="border:1.5px solid rgba(186,117,23,0.2);border-radius:10px;overflow:hidden;">
+    <div style="background:rgba(186,117,23,0.08);padding:11px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(186,117,23,0.15);">
+      <span style="font-weight:800;color:rgb(186,117,23);">③</span>
+      <span style="font-weight:700;font-size:0.9rem;">여행지보다 누구와 가느냐가 더 중요하다</span>
+    </div>
+    <div style="padding:11px 16px;font-size:0.85rem;color:#4b5563;">장소에 너무 연연하지 말자. 봄은 짧다. 지금 예약하지 않으면 또 내년이다.</div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 봄은 짧다. 지금 예약하지 않으면 또 내년이다.
 
