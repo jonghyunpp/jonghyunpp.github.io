@@ -1,5 +1,5 @@
 ---
-title: "[Movie] 영화가 현실을 깨웠다 — 왕사남·살목지 신드롬"
+title: "왕과 사는 남자·살목지 흥행 분석 — 영화가 현실을 바꾼 이유"
 date: 2026-04-26
 draft: false
 categories: ["문화"]

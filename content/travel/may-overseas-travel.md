@@ -1,5 +1,5 @@
 ---
-title: "[여행] 5월 해외 여행지 추천 — 상황별로 고른 지금 가기 딱 좋은 곳들"
+title: "5월 해외 여행지 추천 — 커플·가족·아이 동반 상황별 가이드"
 date: 2026-05-03
 draft: false
 categories: ["travel"]
@@ -166,3 +166,7 @@ USJ를 간다면 우메다나 난바 쪽 호텔이 접근성이 좋다. 트윈·
 
 *항공권: [스카이스캐너](https://www.skyscanner.co.kr) / [네이버 항공](https://flight.naver.com)*
 *숙소: [에어비앤비](https://www.airbnb.co.kr) / [아고다](https://www.agoda.com/ko-kr) / [부킹닷컴](https://www.booking.com) / [네이버 숙소](https://hotels.naver.com) / [stayfolio](https://www.stayfolio.com)*
+
+**함께 읽으면 좋은 글**
+- [5월 국내 여행지 추천 — 커플·가족·혼자 상황별 가이드](/travel/may-domestic-travel/)
+- [북런던 더비 직관 후기 — 토트넘 티켓·좌석·경기 총정리](/travel/london-north-derby/)

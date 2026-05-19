@@ -1,5 +1,5 @@
 ---
-title: "[Music] BTS가 돌아왔다 — 아리랑 컴백이 만든 것들"
+title: "BTS 아리랑 컴백 완벽 정리 — 차트 성적·스트리밍·문화 현상"
 date: 2026-04-27
 draft: false
 categories: ["문화"]

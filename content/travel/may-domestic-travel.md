@@ -1,5 +1,5 @@
 ---
-title: "[여행] 5월 국내 여행지 추천 — 상황별로 골라 가는 봄의 마지막"
+title: "5월 국내 여행지 추천 — 커플·가족·혼자 상황별 가이드"
 date: 2026-05-02
 draft: false
 categories: ["travel"]
@@ -163,3 +163,6 @@ summary: "5월은 국내 여행의 피크다. 커플, 가족, 아이와 함께 �
 ---
 
 *숙소 검색 및 예약: [stayfolio](https://www.stayfolio.com) / [에어비앤비](https://www.airbnb.co.kr) / [야놀자](https://www.yanolja.com) / [여기어때](https://www.yeogi.com) / [아고다](https://www.agoda.com/ko-kr) / [네이버 숙소](https://hotels.naver.com)*
+
+**함께 읽으면 좋은 글**
+- [5월 해외 여행지 추천 — 커플·가족·아이 동반 상황별 가이드](/travel/may-overseas-travel/)
