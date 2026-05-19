@@ -99,6 +99,35 @@ ShowReadingTime: false
     중동 전쟁으로 유가가 급등하면서 주유비·식료품비·전기료까지 생활비 부담이 커지자 정부가 내놓은 지원책입니다. 신청 안 하면 못 받으니, 지금 바로 확인해 보세요.
   </p>
 
+  <!-- 핵심 요약 카드 -->
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin:0 0 1.8rem;">
+    <div style="flex:1;min-width:120px;border:1.5px solid rgba(5,150,105,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(5,150,105,0.04);">
+      <div style="font-size:0.7rem;color:#059669;font-weight:700;margin-bottom:6px;">1차 신청 시작</div>
+      <div style="font-size:1rem;font-weight:800;">4월 27일</div>
+      <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">기초·차상위·한부모</div>
+    </div>
+    <div style="flex:1;min-width:120px;border:1.5px solid rgba(5,150,105,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(5,150,105,0.04);">
+      <div style="font-size:0.7rem;color:#059669;font-weight:700;margin-bottom:6px;">2차 신청 시작</div>
+      <div style="font-size:1rem;font-weight:800;">5월 18일~</div>
+      <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">일반 가구 포함</div>
+    </div>
+    <div style="flex:1;min-width:120px;border:1.5px solid rgba(5,150,105,0.2);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(5,150,105,0.04);">
+      <div style="font-size:0.7rem;color:#059669;font-weight:700;margin-bottom:6px;">대상 기준</div>
+      <div style="font-size:1rem;font-weight:800;">소득 하위 70%</div>
+      <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">건강보험료 기준</div>
+    </div>
+    <div style="flex:1;min-width:120px;border:2px solid rgba(244,63,94,0.25);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(244,63,94,0.03);">
+      <div style="font-size:0.7rem;color:#f43f5e;font-weight:700;margin-bottom:6px;">⚠ 사용 기한</div>
+      <div style="font-size:1rem;font-weight:800;color:#f43f5e;">8월 31일</div>
+      <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">이후 자동 소멸</div>
+    </div>
+    <div style="flex:1;min-width:120px;border:1.5px solid rgba(5,150,105,0.3);border-radius:10px;padding:14px 12px;text-align:center;background:rgba(5,150,105,0.06);">
+      <div style="font-size:0.7rem;color:#059669;font-weight:700;margin-bottom:6px;">최대 수령액 (4인)</div>
+      <div style="font-size:1.1rem;font-weight:800;color:#059669;">240만 원</div>
+      <div style="font-size:0.7rem;color:#6b7280;margin-top:3px;">비수도권 기초수급</div>
+    </div>
+  </div>
+
   <!-- 지급 대상 -->
   <div class="lf-section">
     <div class="lf-section-header">📋 지급 대상 — 소득 하위 70%</div>
@@ -162,6 +191,34 @@ ShowReadingTime: false
       </div>
     </div>
     <div class="lf-tip">💡 <strong>예시:</strong> 비수도권 거주 기초수급자 4인 가족 → 60만 원 × 4명 = <strong>최대 240만 원</strong> 수령 가능. 가구원 수만큼 합산 지급됩니다.</div>
+
+    <!-- 지급 금액 시각화 카드 -->
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 0;">
+      <div style="flex:1;min-width:140px;border:1.5px solid rgba(124,58,237,0.2);border-radius:10px;padding:16px 14px;background:rgba(124,58,237,0.03);">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px;">
+          <span style="width:8px;height:8px;border-radius:2px;background:#7c3aed;display:inline-block;flex-shrink:0;"></span>
+          <span style="font-size:0.72rem;font-weight:700;color:#7c3aed;">기초생활수급자</span>
+        </div>
+        <div style="font-size:1.25rem;font-weight:800;color:#7c3aed;">55–60만 원</div>
+        <div style="font-size:0.75rem;color:#6b7280;margin-top:4px;">1인당 / 수도권·비수도권</div>
+      </div>
+      <div style="flex:1;min-width:140px;border:1.5px solid rgba(37,99,235,0.2);border-radius:10px;padding:16px 14px;background:rgba(37,99,235,0.03);">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px;">
+          <span style="width:8px;height:8px;border-radius:2px;background:#2563eb;display:inline-block;flex-shrink:0;"></span>
+          <span style="font-size:0.72rem;font-weight:700;color:#2563eb;">차상위 · 한부모</span>
+        </div>
+        <div style="font-size:1.25rem;font-weight:800;color:#2563eb;">45–50만 원</div>
+        <div style="font-size:0.75rem;color:#6b7280;margin-top:4px;">1인당 / 수도권·비수도권</div>
+      </div>
+      <div style="flex:1;min-width:140px;border:1.5px solid rgba(5,150,105,0.2);border-radius:10px;padding:16px 14px;background:rgba(5,150,105,0.03);">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px;">
+          <span style="width:8px;height:8px;border-radius:2px;background:#059669;display:inline-block;flex-shrink:0;"></span>
+          <span style="font-size:0.72rem;font-weight:700;color:#059669;">일반 가구</span>
+        </div>
+        <div style="font-size:1.25rem;font-weight:800;color:#059669;">10–25만 원</div>
+        <div style="font-size:0.75rem;color:#6b7280;margin-top:4px;">지역·인구감소 여부에 따라</div>
+      </div>
+    </div>
   </div>
 
   <!-- 신청 일정 -->
@@ -190,6 +247,42 @@ ShowReadingTime: false
         </table>
       </div>
     </div>
+    <!-- 신청 일정 타임라인 -->
+    <div style="margin:14px 0;padding:18px 20px;border:1.5px solid rgba(5,150,105,0.15);border-radius:12px;background:rgba(5,150,105,0.02);">
+      <div style="font-size:0.72rem;font-weight:700;color:#059669;letter-spacing:0.06em;margin-bottom:16px;">신청 타임라인</div>
+      <div style="display:flex;flex-direction:column;gap:0;">
+        <div style="display:flex;gap:14px;align-items:flex-start;padding-bottom:14px;">
+          <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
+            <div style="width:13px;height:13px;border-radius:50%;background:#7c3aed;margin-top:2px;"></div>
+            <div style="width:2px;flex:1;min-height:28px;background:rgba(124,58,237,0.2);margin-top:3px;"></div>
+          </div>
+          <div>
+            <div style="font-size:0.85rem;font-weight:700;">1차 신청 <span style="color:#9ca3af;font-weight:400;">4월 27일(월) ~ 5월 8일(금)</span></div>
+            <div style="font-size:0.78rem;color:#6b7280;margin-top:3px;line-height:1.55;">기초생활수급자 · 차상위계층 · 한부모가족<br><span style="color:#f43f5e;">※ 1차 신청 시 2차 신청 불가</span></div>
+          </div>
+        </div>
+        <div style="display:flex;gap:14px;align-items:flex-start;padding-bottom:14px;">
+          <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
+            <div style="width:13px;height:13px;border-radius:50%;background:#059669;margin-top:2px;"></div>
+            <div style="width:2px;flex:1;min-height:28px;background:rgba(5,150,105,0.2);margin-top:3px;"></div>
+          </div>
+          <div>
+            <div style="font-size:0.85rem;font-weight:700;">2차 신청 <span style="color:#9ca3af;font-weight:400;">5월 18일(월) ~ 7월 3일(금)</span></div>
+            <div style="font-size:0.78rem;color:#6b7280;margin-top:3px;line-height:1.55;">일반 가구 + 1차 미신청자 전체</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:14px;align-items:flex-start;">
+          <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
+            <div style="width:13px;height:13px;border-radius:50%;background:#f43f5e;margin-top:2px;"></div>
+          </div>
+          <div>
+            <div style="font-size:0.85rem;font-weight:700;color:#f43f5e;">사용 기한 <span style="color:#9ca3af;font-weight:400;">2026년 8월 31일(월)까지</span></div>
+            <div style="font-size:0.78rem;color:#9ca3af;margin-top:3px;">잔액 자동 소멸 — 8월 말 전에 꼭 사용하세요</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="lf-tip red">⚠️ <strong>사용 기한:</strong> 1·2차 모두 <strong>2026년 8월 31일(월)까지</strong> 사용해야 합니다. 남은 금액은 자동 소멸됩니다.</div>
   </div>
 
