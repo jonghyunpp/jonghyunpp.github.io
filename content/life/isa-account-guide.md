@@ -31,11 +31,28 @@ cover:
 
 ## ISA 종류 3가지
 
-| 종류 | 특징 | 추천 대상 |
-|---|---|---|
-| **신탁형** | 가입자가 운용 상품 직접 지정, 예금·펀드·ETF 가능 | 펀드 위주 투자자 |
-| **일임형** | 금융사가 대신 운용 (포트폴리오 선택) | 투자 결정이 어려운 초보자 |
-| **중개형** | 국내 상장 주식·ETF 직접 매매 가능 | 직접 투자 선호자 (현재 가장 인기) |
+{{< rawhtml >}}
+<div style="display:flex;gap:14px;margin:1.5em 0;flex-wrap:wrap;">
+  <div style="flex:1;min-width:160px;border:1.5px solid #e5e7eb;border-radius:12px;padding:18px;">
+    <div style="font-size:1.8rem;margin-bottom:8px;">🏦</div>
+    <div style="font-weight:700;margin-bottom:6px;">신탁형</div>
+    <div style="font-size:0.83rem;color:#6b7280;line-height:1.6;">가입자가 운용 상품 지정<br>예금·펀드·ETF 가능</div>
+    <div style="margin-top:12px;font-size:0.78rem;background:#f3f4f6;border-radius:6px;padding:5px 8px;color:#6b7280;display:inline-block;">은행 · 증권사</div>
+  </div>
+  <div style="flex:1;min-width:160px;border:1.5px solid #e5e7eb;border-radius:12px;padding:18px;">
+    <div style="font-size:1.8rem;margin-bottom:8px;">🤝</div>
+    <div style="font-weight:700;margin-bottom:6px;">일임형</div>
+    <div style="font-size:0.83rem;color:#6b7280;line-height:1.6;">금융사가 대신 운용<br>포트폴리오만 선택</div>
+    <div style="margin-top:12px;font-size:0.78rem;background:#f3f4f6;border-radius:6px;padding:5px 8px;color:#6b7280;display:inline-block;">은행 · 증권사</div>
+  </div>
+  <div style="flex:1;min-width:160px;border:2px solid rgba(55,138,221,0.45);border-radius:12px;padding:18px;background:rgba(55,138,221,0.04);">
+    <div style="font-size:1.8rem;margin-bottom:8px;">📈</div>
+    <div style="font-weight:700;margin-bottom:6px;color:rgb(55,138,221);">중개형 ★</div>
+    <div style="font-size:0.83rem;color:#6b7280;line-height:1.6;">주식·ETF 직접 매매<br>운용 자유도 최고</div>
+    <div style="margin-top:12px;font-size:0.78rem;background:rgba(55,138,221,0.12);border-radius:6px;padding:5px 8px;color:rgb(55,138,221);display:inline-block;">증권사 전용 · 추천</div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 > 💡 **현재 대부분은 중개형 ISA를 선택한다.** 국내 주식과 ETF를 직접 사고팔 수 있고, 신탁형과 일임형보다 운용 자유도가 훨씬 높다. 단, 해외주식 직접 매매는 불가능하다. 해외주식에 투자하려면 국내 상장 해외 ETF(예: TIGER 미국S&P500)를 활용하면 된다.
 
@@ -81,14 +98,45 @@ ISA 계좌는 다르다.
 
 **일반 계좌 vs ISA 계좌 세금 비교:**
 
-| 구분 | 일반 계좌 | ISA 계좌 (일반형) |
-|---|---|---|
-| A 종목 수익 | +300만 원 | +300만 원 |
-| B 종목 손실 | –150만 원 | –150만 원 |
-| 과세 기준 수익 | 300만 원 | **150만 원** (손익통산) |
-| 비과세 한도 차감 | — | –200만 원 (비과세 적용) |
-| 실제 과세 대상 | 300만 원 | **0원** |
-| 세금 (15.4% / 9.9%) | **약 46만 원** | **0원** |
+{{< rawhtml >}}
+<div style="display:flex;gap:16px;margin:1.5em 0;flex-wrap:wrap;">
+  <div style="flex:1;min-width:220px;border:1.5px solid #fca5a5;border-radius:12px;padding:20px;background:#fef2f2;">
+    <div style="font-weight:700;font-size:0.95rem;color:#991b1b;margin-bottom:14px;">📂 일반 계좌</div>
+    <div style="display:flex;justify-content:space-between;margin-bottom:7px;font-size:0.9rem;">
+      <span style="color:#374151;">A종목 수익</span><span style="color:#059669;font-weight:600;">+300만 원</span>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-bottom:14px;font-size:0.9rem;">
+      <span style="color:#374151;">B종목 손실</span><span style="color:#dc2626;font-weight:600;">–150만 원</span>
+    </div>
+    <div style="border-top:1px solid #fca5a5;padding-top:10px;margin-bottom:10px;">
+      <div style="font-size:0.8rem;color:#9ca3af;margin-bottom:4px;">손실 무시, 수익 300만 원에만 과세</div>
+      <div style="font-size:0.85rem;font-weight:600;color:#374151;">300만 원 × 15.4%</div>
+    </div>
+    <div style="background:#fee2e2;border-radius:8px;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;">
+      <span style="font-size:0.82rem;color:#991b1b;">납부 세금</span>
+      <span style="font-size:1.25rem;font-weight:800;color:#dc2626;">약 46만 원</span>
+    </div>
+  </div>
+  <div style="flex:1;min-width:220px;border:1.5px solid rgba(55,138,221,0.35);border-radius:12px;padding:20px;background:rgba(55,138,221,0.04);">
+    <div style="font-weight:700;font-size:0.95rem;color:rgb(55,138,221);margin-bottom:14px;">🛡️ ISA 계좌</div>
+    <div style="display:flex;justify-content:space-between;margin-bottom:7px;font-size:0.9rem;">
+      <span style="color:#374151;">A종목 수익</span><span style="color:#059669;font-weight:600;">+300만 원</span>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-bottom:14px;font-size:0.9rem;">
+      <span style="color:#374151;">B종목 손실</span><span style="color:#dc2626;font-weight:600;">–150만 원</span>
+    </div>
+    <div style="border-top:1px solid rgba(55,138,221,0.2);padding-top:10px;margin-bottom:10px;">
+      <div style="font-size:0.8rem;color:#9ca3af;margin-bottom:2px;">손익통산 → 순수익 150만 원</div>
+      <div style="font-size:0.8rem;color:#9ca3af;margin-bottom:4px;">비과세 한도 200만 원 차감</div>
+      <div style="font-size:0.85rem;font-weight:600;color:rgb(55,138,221);">과세 대상 = 0원</div>
+    </div>
+    <div style="background:rgba(55,138,221,0.1);border-radius:8px;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;">
+      <span style="font-size:0.82rem;color:rgb(55,138,221);">납부 세금</span>
+      <span style="font-size:1.25rem;font-weight:800;color:rgb(55,138,221);">0원</span>
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 > 💡 **분산 투자할수록 ISA 효과가 커진다.** 여러 ETF·주식에 나눠 투자하면 필연적으로 손실 종목이 생긴다. 일반 계좌는 그 손실이 그냥 손해지만, ISA는 그 손실이 세금 절감으로 돌아온다.
 
@@ -96,24 +144,52 @@ ISA 계좌는 다르다.
 
 ## 실제 절세 시뮬레이션
 
-**케이스 1 — 서민형, 연 1,000만 원 투자, 연 수익률 6% 가정 (3년 유지)**
-
-- 3년 누적 수익: 약 **196만 원**
-- 비과세 한도 (400만 원) 이내 → **세금 0원**
-- 일반 계좌라면: 196만 원 × 15.4% = **약 30만 원 세금**
-
-**케이스 2 — 일반형, 연 2,000만 원 투자, 연 수익률 7% (3년 유지)**
-
-- 3년 누적 수익: 약 **451만 원**
-- 비과세 200만 원 → 초과분 251만 원에 9.9% 분리과세 = **약 25만 원**
-- 일반 계좌라면: 451만 원 × 15.4% = **약 69만 원**
-- **절감액: 약 44만 원**
-
-**케이스 3 — 청년형, 연 1,500만 원 투자, 수익 300만 원 + 손실 150만 원 혼재**
-
-- 손익통산 후 순수익: 150만 원
-- 비과세 400만 원 이내 → **세금 0원**
-- 일반 계좌라면: 수익 300만 원에만 과세 → **약 46만 원 세금**
+{{< rawhtml >}}
+<div style="display:flex;flex-direction:column;gap:12px;margin:1.5em 0;">
+  <div style="border:1.5px solid #e5e7eb;border-radius:12px;padding:18px 20px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="font-size:0.78rem;font-weight:700;background:rgba(55,138,221,0.1);color:rgb(55,138,221);padding:3px 10px;border-radius:20px;">서민형</span>
+        <span style="font-size:0.9rem;font-weight:700;">연 1,000만 원 · 수익률 6% · 3년</span>
+      </div>
+      <div><span style="font-size:0.8rem;color:#9ca3af;">절세액 </span><span style="font-size:1.15rem;font-weight:800;color:rgb(55,138,221);">약 30만 원</span></div>
+    </div>
+    <div style="display:flex;gap:8px;font-size:0.82rem;flex-wrap:wrap;">
+      <span style="background:#f9fafb;border-radius:6px;padding:4px 10px;">3년 수익 <b>196만 원</b></span>
+      <span style="background:#f9fafb;border-radius:6px;padding:4px 10px;">비과세 한도 400만 원 이내</span>
+      <span style="background:rgba(55,138,221,0.08);border-radius:6px;padding:4px 10px;color:rgb(55,138,221);font-weight:600;">세금 0원</span>
+    </div>
+  </div>
+  <div style="border:1.5px solid #e5e7eb;border-radius:12px;padding:18px 20px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="font-size:0.78rem;font-weight:700;background:#f3f4f6;color:#374151;padding:3px 10px;border-radius:20px;">일반형</span>
+        <span style="font-size:0.9rem;font-weight:700;">연 2,000만 원 · 수익률 7% · 3년</span>
+      </div>
+      <div><span style="font-size:0.8rem;color:#9ca3af;">절세액 </span><span style="font-size:1.15rem;font-weight:800;color:rgb(55,138,221);">약 44만 원</span></div>
+    </div>
+    <div style="display:flex;gap:8px;font-size:0.82rem;flex-wrap:wrap;">
+      <span style="background:#f9fafb;border-radius:6px;padding:4px 10px;">3년 수익 <b>451만 원</b></span>
+      <span style="background:#f9fafb;border-radius:6px;padding:4px 10px;">일반 계좌 세금 <b style="color:#dc2626;">69만 원</b></span>
+      <span style="background:rgba(55,138,221,0.08);border-radius:6px;padding:4px 10px;color:rgb(55,138,221);font-weight:600;">ISA 세금 25만 원</span>
+    </div>
+  </div>
+  <div style="border:2px solid rgba(55,138,221,0.25);border-radius:12px;padding:18px 20px;background:rgba(55,138,221,0.03);">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="font-size:0.78rem;font-weight:700;background:rgba(55,138,221,0.1);color:rgb(55,138,221);padding:3px 10px;border-radius:20px;">청년형</span>
+        <span style="font-size:0.9rem;font-weight:700;">연 1,500만 원 · 수익+손실 혼재</span>
+      </div>
+      <div><span style="font-size:0.8rem;color:#9ca3af;">절세액 </span><span style="font-size:1.15rem;font-weight:800;color:rgb(55,138,221);">약 46만 원</span></div>
+    </div>
+    <div style="display:flex;gap:8px;font-size:0.82rem;flex-wrap:wrap;">
+      <span style="background:#f9fafb;border-radius:6px;padding:4px 10px;">수익 <b style="color:#059669;">+300만</b> 손실 <b style="color:#dc2626;">–150만</b></span>
+      <span style="background:#f9fafb;border-radius:6px;padding:4px 10px;">손익통산 → 순수익 <b>150만 원</b></span>
+      <span style="background:rgba(55,138,221,0.08);border-radius:6px;padding:4px 10px;color:rgb(55,138,221);font-weight:600;">세금 0원</span>
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 ---
 
@@ -127,6 +203,31 @@ ISA 만기(3년) 이후 계좌를 해지하지 않고 **연금저축·IRP로 전
 즉, ISA에서 3,000만 원을 연금계좌로 옮기면 300만 원을 세액공제 받고, 세율 16.5% 기준으로 **약 49만 원을 추가 환급**받는다. 연말정산 환급액이 갑자기 커지는 효과다.
 
 > 💡 **청년도약계좌 만기 자금과 연계하면 더 강력하다.** 청년도약계좌(5년) 만기 후 목돈을 ISA에 납입하고, ISA 만기 후 연금계좌로 전환하면 세제 혜택이 3단계로 쌓인다.
+
+{{< rawhtml >}}
+<div style="margin:1.5em 0;padding:22px;background:rgba(55,138,221,0.04);border-radius:14px;border:1px solid rgba(55,138,221,0.18);">
+  <div style="font-weight:700;font-size:0.93rem;margin-bottom:18px;color:#374151;">절세 혜택 3단계 설계도</div>
+  <div style="display:flex;align-items:stretch;flex-wrap:wrap;gap:10px;">
+    <div style="background:white;border:1.5px solid rgba(55,138,221,0.25);border-radius:10px;padding:14px 16px;text-align:center;min-width:110px;flex:1;">
+      <div style="font-size:0.7rem;color:#9ca3af;margin-bottom:5px;font-weight:700;letter-spacing:0.06em;">STEP 1</div>
+      <div style="font-weight:700;font-size:0.9rem;margin-bottom:7px;">청년도약계좌</div>
+      <div style="font-size:0.78rem;color:#059669;line-height:1.6;">정부 기여금 최대 6%<br>이자 비과세</div>
+    </div>
+    <div style="display:flex;align-items:center;font-size:1.3rem;color:rgba(55,138,221,0.4);">→</div>
+    <div style="background:white;border:1.5px solid rgba(55,138,221,0.25);border-radius:10px;padding:14px 16px;text-align:center;min-width:110px;flex:1;">
+      <div style="font-size:0.7rem;color:#9ca3af;margin-bottom:5px;font-weight:700;letter-spacing:0.06em;">STEP 2</div>
+      <div style="font-weight:700;font-size:0.9rem;margin-bottom:7px;">ISA 계좌</div>
+      <div style="font-size:0.78rem;color:#059669;line-height:1.6;">손익통산<br>비과세 200·400만 원</div>
+    </div>
+    <div style="display:flex;align-items:center;font-size:1.3rem;color:rgba(55,138,221,0.4);">→</div>
+    <div style="background:rgba(55,138,221,0.07);border:2px solid rgba(55,138,221,0.4);border-radius:10px;padding:14px 16px;text-align:center;min-width:110px;flex:1;">
+      <div style="font-size:0.7rem;color:rgb(55,138,221);margin-bottom:5px;font-weight:700;letter-spacing:0.06em;">STEP 3</div>
+      <div style="font-weight:700;font-size:0.9rem;color:rgb(55,138,221);margin-bottom:7px;">연금계좌 전환</div>
+      <div style="font-size:0.78rem;color:#059669;line-height:1.6;">추가 세액공제 10%<br>최대 +300만 원</div>
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 ---
 
