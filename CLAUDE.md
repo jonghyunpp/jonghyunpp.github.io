@@ -70,11 +70,20 @@ ShowReadingTime: false
 - rawhtml 표: `display: table !important` 필수
 
 ## 쿠팡 파트너스 광고
-생활 카테고리 글에는 "함께 읽으면 좋은 글" 바로 앞에 반드시 삽입:
-```markdown
-{{< coupang >}}
-```
-shortcode 위치: layouts/shortcodes/coupang.html (생활용품 carousel 배너)
+"함께 읽으면 좋은 글" 바로 앞에 카테고리/주제별 배너 반드시 삽입.
+모든 배너는 `Math.min(window.innerWidth-32, 900)` 반응형 width 사용.
+
+| 숏코드 | ID | 설명 | 적용 대상 |
+|---|---|---|---|
+| `{{< coupang >}}` | 997882 | 생활용품 | 생활 카테고리 (기본) |
+| `{{< coupang-interest >}}` | 997901 | 고객 관심 기반 | 금융/재테크 글 |
+| `{{< coupang-digital >}}` | 997903 | 가전디지털 | 뉴스 카테고리 |
+| `{{< coupang-kitchen >}}` | 997885 | 주방용품 | 요리/주방 관련 글 |
+| `{{< coupang-fashion >}}` | 997899 | 패션의류/잡화 | 패션/뷰티 관련 글 |
+| `{{< coupang-only >}}` | 997902 | 쿠팡온리 | 쇼핑/리뷰 관련 글 |
+| `{{< coupang-car >}}` | 997904 | 자동차용품 | 뉴스 카테고리 (coupang-digital과 번갈아) |
+
+뉴스 카테고리: `coupang-digital`과 `coupang-car`를 글마다 번갈아 사용.
 
 ## 내부 링크
 게시글 끝 주석 바로 위에 추가:
