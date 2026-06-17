@@ -1,9 +1,23 @@
-<div style="margin:2em 0;overflow:hidden;max-width:100%;">
-<div id="cp997901{{ .Ordinal }}">
+<div style="margin:2em 0;overflow:hidden;max-width:100%;" id="cpout997901{{ .Ordinal }}">
 <script src="https://ads-partners.coupang.com/g.js"></script>
 <script>
 new PartnersCoupang.G({"id":997901,"template":"carousel","trackingCode":"AF7522335","width":"900","height":"140","tsource":""});
-(function(){var w=document.getElementById('cp997901{{ .Ordinal }}');var s=Math.min((w.parentElement.offsetWidth||window.innerWidth)/900,1);if(s<1){w.style.transformOrigin='0 0';w.style.transform='scale('+s+')';w.parentElement.style.height=Math.round(140*s)+'px';}})();
 </script>
 </div>
-</div>
+<script>
+(function(){
+  function scaleAd(){
+    var o=document.getElementById('cpout997901{{ .Ordinal }}');
+    if(!o) return;
+    var ow=o.offsetWidth;
+    if(ow>0 && ow<900){
+      var s=ow/900;
+      var inner=o.firstElementChild;
+      if(inner){inner.style.transformOrigin='0 0';inner.style.transform='scale('+s+')';}
+      o.style.height=Math.round(140*s)+'px';
+    }
+  }
+  if(document.readyState==='complete'){scaleAd();}
+  else{window.addEventListener('load',scaleAd);}
+})();
+</script>
