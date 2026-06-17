@@ -167,6 +167,8 @@ cover:
 
 ---
 
+{{< coupang-interest >}}
+
 **함께 읽으면 좋은 글**
 - [ISA 계좌 완벽 가이드 — 종류·혜택·가입 방법 총정리](/life/isa-account-guide/)
 - [생애최초 주택 구매 혜택 — 취득세 감면·디딤돌 대출 총정리](/life/first-home-buying-tips/)
