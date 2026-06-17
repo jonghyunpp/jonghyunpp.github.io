@@ -81,9 +81,10 @@ ShowReadingTime: false
 | `{{< coupang-kitchen >}}` | 997885 | 주방용품 | 요리/주방 관련 글 |
 | `{{< coupang-fashion >}}` | 997899 | 패션의류/잡화 | 패션/뷰티 관련 글 |
 | `{{< coupang-only >}}` | 997902 | 쿠팡온리 | 쇼핑/리뷰 관련 글 |
-| `{{< coupang-car >}}` | 997904 | 자동차용품 | 뉴스 카테고리 (coupang-digital과 번갈아) |
+| `{{< coupang-car >}}` | 997904 | 자동차용품 | 뉴스 카테고리 (3종 순환) |
+| `{{< coupang-sports >}}` | 997905 | 스포츠레저 | 뉴스 카테고리 (3종 순환) |
 
-뉴스 카테고리: `coupang-digital`과 `coupang-car`를 글마다 번갈아 사용.
+뉴스 카테고리: `coupang-digital` → `coupang-car` → `coupang-sports` 순으로 글마다 순환.
 
 ## 내부 링크
 게시글 끝 주석 바로 위에 추가:
