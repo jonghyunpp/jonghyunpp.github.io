@@ -6,12 +6,6 @@
     "dir": "up"
   },
   {
-    "name": "KOSDAQ",
-    "value": "1,031.96",
-    "change": "+1.30%",
-    "dir": "up"
-  },
-  {
     "name": "NASDAQ",
     "value": "26,376.34",
     "change": "-1.15%",
