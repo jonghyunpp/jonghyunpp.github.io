@@ -173,6 +173,8 @@ cover:
 
 ---
 
+{{< coupang >}}
+
 **함께 읽으면 좋은 글**
 - [ISA 계좌 완벽 가이드 — 종류·혜택·가입 방법 총정리](/life/isa-account-guide/)
 - [청년도약계좌 완벽 가이드 — 조건·금리·혜택 총정리](/life/youth-savings-account/)
