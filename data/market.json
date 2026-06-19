@@ -1,14 +1,14 @@
 [
   {
     "name": "KOSPI",
-    "value": "9,221.74",
-    "change": "+1.74%",
-    "dir": "up"
+    "value": "9,052.42",
+    "change": "-0.13%",
+    "dir": "down"
   },
   {
     "name": "KOSDAQ",
-    "value": "968.78",
-    "change": "-3.21%",
+    "value": "966.59",
+    "change": "-3.43%",
     "dir": "down"
   },
   {
