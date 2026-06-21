@@ -1,5 +1,11 @@
 [
   {
+    "name": "KOSPI",
+    "value": "9,052.42",
+    "change": "-0.13%",
+    "dir": "down"
+  },
+  {
     "name": "KOSDAQ",
     "value": "966.59",
     "change": "-3.43%",
