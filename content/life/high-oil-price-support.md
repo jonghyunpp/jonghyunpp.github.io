@@ -8,11 +8,11 @@ description: "오늘부터 신청 시작! 대상·금액·신청방법 한 번�
 summary: "기초생활·차상위·일반 저소득층 대상 고유가 피해지원금. 최대 30만 원, 신청 방법과 지급 일정을 한 번에 정리했다."
 ShowToc: false
 ShowReadingTime: false
----
 cover:
   image: "/images/생활/high-oil-price-support.png"
   alt: "썸네일"
   relative: false
+---
 
 {{< rawhtml >}}
 <style>

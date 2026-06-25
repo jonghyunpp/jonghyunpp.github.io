@@ -7,11 +7,11 @@ tags: ["왕과사는남자", "살목지", "한국영화", "단종", "영월", "�
 summary: "1600만 사극과 160만 공포영화. 장르는 달라도 만들어낸 현상은 놀랍도록 닮아 있다."
 ShowToc: false
 ShowReadingTime: false
----
 cover:
   image: "/images/문화/2026-movie-trend.png"
   alt: "썸네일"
   relative: false
+---
 
 요즘 극장가에서 같은 현상이 두 번 반복됐다. 영화가 극장을 벗어나 현실 공간 속으로 파고드는 것. 장르도, 규모도, 감성도 전혀 다른 두 작품이 그 현상을 동시에 만들어냈다.
 

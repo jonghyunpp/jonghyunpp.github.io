@@ -7,11 +7,11 @@ tags: ["5월여행", "해외여행", "여행추천", "커플여행", "가족여�
 ShowToc: false
 ShowReadingTime: false
 summary: "5월 해외여행, 어디로 갈지 모르겠다면. 커플·가족·아이 동반 상황별로 지금 딱 맞는 여행지와 숙소를 골랐다."
----
 cover:
   image: "/images/여행/may-overseas-travel.png"
   alt: "썸네일"
   relative: false
+---
 
 5월은 해외 여행하기 가장 좋은 달이다. 일본은 골든위크가 막 끝나 인파가 빠지고, 동남아는 건기 막바지라 날씨가 안정적이고, 유럽은 여름 피크 전 마지막 여유가 있다. 상황에 맞게 골라보자.
 
