@@ -1,0 +1,24 @@
+<div style="margin:2em 0;overflow:hidden;max-width:100%;" id="cpwrap997901{{ .Ordinal }}">
+<div style="width:900px;" id="cpinner997901{{ .Ordinal }}">
+<script src="https://ads-partners.coupang.com/g.js"></script>
+<script>new PartnersCoupang.G({"id":997901,"template":"carousel","trackingCode":"AF7522335","width":"900","height":"140","tsource":""});</script>
+</div>
+</div>
+<script>
+(function(){
+  function scaleAd(){
+    var wrap=document.getElementById('cpwrap997901{{ .Ordinal }}');
+    var inner=document.getElementById('cpinner997901{{ .Ordinal }}');
+    if(!wrap||!inner) return;
+    var ow=wrap.offsetWidth;
+    if(ow>0&&ow<900){
+      var s=ow/900;
+      inner.style.transformOrigin='0 0';
+      inner.style.transform='scale('+s+')';
+      wrap.style.height=Math.round(140*s)+'px';
+    }
+  }
+  if(document.readyState==='complete'){scaleAd();}
+  else{window.addEventListener('load',scaleAd);}
+})();
+</script>
