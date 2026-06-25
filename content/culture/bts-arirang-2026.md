@@ -8,6 +8,10 @@ summary: "3년 9개월의 공백, 전역, 그리고 아리랑. BTS 컴백이 음
 ShowToc: false
 ShowReadingTime: false
 ---
+cover:
+  image: "/images/문화/bts-arirang-2026.png"
+  alt: "썸네일"
+  relative: false
 
 2026년 3월 20일. BTS가 돌아왔다.
 

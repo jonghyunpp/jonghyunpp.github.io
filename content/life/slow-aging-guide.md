@@ -8,6 +8,10 @@ summary: "나이가 드는 건 막을 수 없지만, 속도는 조절할 수 있
 ShowToc: false
 ShowReadingTime: false
 ---
+cover:
+  image: "/images/생활/slow-aging-guide.png"
+  alt: "썸네일"
+  relative: false
 
 나이가 드는 건 막을 수 없다. 하지만 속도는 다르다. 같은 50세라도 실제 세포 나이가 40대인 사람이 있고 60대인 사람이 있다. 이걸 결정하는 게 생활 습관이다.
 
@@ -189,6 +193,8 @@ ShowReadingTime: false
 저속노화는 하루아침에 완성되는 게 아니다. 오늘 하나를 바꾸고, 그게 루틴이 되면 다음 하나를 추가한다. 3가지가 모이면 생각보다 빨리 몸이 달라진다는 걸 느낄 수 있다.
 
 ---
+
+{{< coupang >}}
 
 **함께 읽으면 좋은 글**
 - [청년도약계좌 완벽 가이드 — 조건·금리·혜택 총정리](/life/youth-savings-account/)

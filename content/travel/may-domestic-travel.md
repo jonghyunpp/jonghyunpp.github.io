@@ -8,6 +8,10 @@ ShowToc: false
 ShowReadingTime: false
 summary: "5월은 국내 여행의 피크다. 커플, 가족, 아이와 함께 — 상황별로 가장 잘 맞는 여행지와 숙소를 골랐다."
 ---
+cover:
+  image: "/images/여행/may-domestic-travel.png"
+  alt: "썸네일"
+  relative: false
 
 5월은 짧다. 황금연휴가 끝나고 나면 여름이 오고, 그 전의 봄 날씨는 다시 오지 않는다. 주말 한두 번의 여유를 어디서 쓸지 고민이라면, 상황별로 지금 가기 가장 좋은 곳을 정리해봤다.
 

@@ -8,6 +8,10 @@ summary: "20대 68%, 30대 67.5%가 사주·타로에 관심 있다. 미신이 �
 ShowToc: false
 ShowReadingTime: false
 ---
+cover:
+  image: "/images/문화/mz-fortune-culture.png"
+  alt: "썸네일"
+  relative: false
 
 "사주 봤어?" 이 질문이 20대 대화에서 이상하지 않은 지 꽤 됐다. 어느새 타로 카페가 넷플릭스 인기 드라마 단골 배경이 되고, 대학 축제에 별자리 체험존이 생기고, 직장인 단톡방에서 "올해 운세 어때?"가 진지하게 오간다.
 

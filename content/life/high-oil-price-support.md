@@ -9,6 +9,10 @@ summary: "기초생활·차상위·일반 저소득층 대상 고유가 피해�
 ShowToc: false
 ShowReadingTime: false
 ---
+cover:
+  image: "/images/생활/high-oil-price-support.png"
+  alt: "썸네일"
+  relative: false
 
 {{< rawhtml >}}
 <style>
@@ -378,3 +382,5 @@ ShowReadingTime: false
   <p class="lf-disclaimer">본 포스트는 행정안전부 공식 자료를 바탕으로 작성되었습니다. 정확한 지급 금액과 대상 여부는 정부24 또는 거주지 주민센터에서 확인하시기 바랍니다.</p>
 </div>
 {{< /rawhtml >}}
+
+{{< coupang >}}
