@@ -1,15 +1,15 @@
 [
   {
     "name": "KOSPI",
-    "value": "6,641.99",
-    "change": "+0.22%",
+    "value": "6,717.97",
+    "change": "+1.37%",
     "dir": "up"
   },
   {
     "name": "KOSDAQ",
-    "value": "804.63",
-    "change": "-0.96%",
-    "dir": "down"
+    "value": "815.98",
+    "change": "+0.44%",
+    "dir": "up"
   },
   {
     "name": "NASDAQ",
