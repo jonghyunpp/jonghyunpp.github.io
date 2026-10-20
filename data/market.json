@@ -13,14 +13,14 @@
   },
   {
     "name": "NASDAQ",
-    "value": "26,430.89",
-    "change": "+1.11%",
-    "dir": "up"
+    "value": "26,368.65",
+    "change": "-0.24%",
+    "dir": "down"
   },
   {
     "name": "S&P 500",
-    "value": "7,690.73",
-    "change": "+0.41%",
+    "value": "7,704.24",
+    "change": "+0.18%",
     "dir": "up"
   }
 ]
